@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'MuseoSansCyrl300';
+
+}
+/*div.meta{*/
+    /*display: none;*/
+/*}*/
+
+article{
+    margin-top: 57px;
+}
+/*article h1{*/
+    /*display: none;*/
+/*}*/
+div.clearfix{
+    clear: both;
+}
+div.bg-page{
+    width: 100%;
+    background-color: white;
+}
+div.main-blog{
+    background-color: white;
+}
+div.links span{
+    text-transform: unset;
+}
+span.link-main a{
+    text-decoration: none;
+    height: 11px;
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+    font-family: 'MuseoSansCyrl300';
+}
+
+span.link-blog a{
+    text-decoration: none;
+    height: 11px;
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+    font-family: 'MuseoSansCyrl300';
+}
+span.link-user a{
+    text-decoration: none;
+    height: 11px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #26cbea;
+    font-family: 'MuseoSansCyrl300';
+
+}
+
+div.content{
+    margin: 20px;
+}
+
+div.article-blog h1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'MuseoSansCyrl900';
+
+}
+
+div.article-content{
+    margin-top: 50px;
+}
+
+div.article-content p{
+    color: #464646;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'MuseoSansCyrl300';
+}
+span{
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-family: 'MuseoSansCyrl700';
+}
+span.date-article{
+    color: #949494;
+    margin-right: 45px;
+}
+span.date-article::before{
+    content: "";
+    background-image: url(img/calendar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7px;
+    margin-right: 10px;
+}
+span.author{
+    color: #949494;;
+    margin-right: 35px;
+}
+
+span.author::before{
+    content: "";
+    background-image: url(img/icon-author.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7px;
+    margin-right: 10px;
+}
+span.author-name{
+    color: black;
+}
+span.count-comments{
+    margin-left: 45px;
+}
+
+span.count-comments::before{
+    content: "";
+    background-image: url(img/comments.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9px;
+    margin-right: 10px;
+}
+
+span.article-rubric{
+    background-color: #e8eeee;
+    border-radius: 3px;
+    padding: 15px 25px;
+    float: right;
+    color: #7d7d7d;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+div.time-for-reading{
+    margin-top: 25px;
+}
+
+span.time-reading{
+    color: black;
+    margin-right: 25px;
+}
+
+span.time-reading::before{
+    content: "";
+    background-image: url(img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9px;
+    margin-right: 10px;
+}
+
+span.time{
+    background-color: #4dddf8;
+    padding: 15px 20px;
+    font-family: 'MuseoSansCyrl900';
+    margin-right: 25px;
+}
+span.no-time{
+    background-color: #e74f4c;
+    border-radius: 3px;
+    padding: 15px 20px;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: unset;
+}
+span.no-time a{
+    text-decoration: none;
+    color: white;
+}
+
+h3.paragraph-name{
+    color: black;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: 'MuseoSansCyrl900';
+
+}
+
+
+
+div.points span{
+    border-radius: 50%;
+    padding: 10px 18px;
+    border: 1px solid #4dddf8;
+    color: black;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 25px;
+    position: absolute;
+}
+div.points p{
+    display: inline-block;
+    width: 85%;
+    margin-left: 65px;
+}
+
+div.low-section{
+    margin-bottom: 25px;
+}
+
+span.author-low-section{
+    color: black;
+    font-family: 'MuseoSansCyrl900';
+    margin-right: 15px;
+}
+
+span.author-name-low-section{
+    margin-left: 15px;
+}
+
+
+span.rate{
+    color: black;
+    font-family: 'MuseoSansCyrl900';
+    margin-right: 20px;
+}
+div.rate-material{
+    display: inline-block;
+}
+
+div.share{
+    margin-top: 25px;
+}
+
+div.share span{
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'MuseoSansCyrl900';
+}
+
+ul.share-networks {
+    display: inline-block;
+}
+
+
+video{
+
+    width: 711px;
+    height: 417px;
+}
