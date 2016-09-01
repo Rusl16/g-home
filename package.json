@@ -1,0 +1,26 @@
+{
+  "name": "g-home",
+  "version": "1.0.0",
+  "description": "garnet-soft",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git repository"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "Ruslan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-update-modul": "^1.5.5"
+  }
+}
