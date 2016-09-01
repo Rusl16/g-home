@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+
+    font-family: 'MuseoSansCyrl300';
+
+}
+
+div.breadcrumbs{
+    padding-top-top: 20px;
+}
+div.breadcrumbs  span {
+    height: 11px;
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+    font-family: 'MuseoSansCyrl300';
+    text-transform: none;
+
+}
+div.breadcrumbs .current {
+    color: #26cbea ;
+}
+
+div.clear-padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+div.bg{
+    background-color: white;
+    margin-top: 57px;
+}
+/*div.test-bg{*/
+    /*background-color: white;*/
+    /*margin-top: 100px;*/
+/*}*/
+div.test-bg h1{
+    color: #27d3f3;
+    font-size: 48px;
+    line-height: 79px;
+    text-transform: uppercase;
+    font-family: 'MuseoSansCyrl900';
+}
+
+
+div.blog-article{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+div.blog-article h3{
+    color: black;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'MuseoSansCyrl900';
+}
+
+a.read-more{
+    background-color: #27d3f3;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 18px;
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-family: 'MuseoSansCyrl700';
+
+}
+a.read-more:hover
+{
+    background-color: #e8eeee;
+    color: #7d7d7d;
+}
+
+span.date{
+    display: inline-block;
+    color: #949494;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+
+
+span.rubric{
+    display: inline-block;
+    padding: 12px 15px;
+    background-color: #e8eeee;
+    border-radius: 3px;
+    margin-top: 15px;
+    color: #7d7d7d;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+span.rubric a{
+    color: #7d7d7d;
+    font-family: 'MuseoSansCyrl700';
+}
+
+div.be-with-us{
+    background-color: #e8eeee;
+    border-radius: 3px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+div.be-with-us h3{
+    color: black;
+    font-size: 18px;
+    line-height: 63px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: 'MuseoSansCyrl700';
+}
+
+ul.aside-social-networks{
+    list-style-type: none;
+    padding-top: 15px;
+
+}
+ul.aside-social-networks li{
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+li.vk-aside i{
+    /*background-image: url("img/aside-vk.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    padding: 14px 15px;
+    border-radius: 50%;
+    background-color: #41658b;
+    color: white;
+    font-size: 25px;
+}
+
+li.fb-aside i{
+    /*background-image: url("img/aside-fb.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    padding: 14px 21px;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #39579a;
+}
+
+li.tw-aside i{
+    /*background-image: url("img/aside-tw.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    padding: 14px 15px;
+    border-radius: 50%;
+    background-color: #00abf0;
+    color: white;
+    font-size: 25px;
+}
+
+li.g-aside i{
+    /*background-image: url("img/aside-g.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    padding: 14px 15px;
+    border-radius: 50%;
+    background-color: #ef6048;
+    color: white;
+    font-size: 25px;
+}
+
+div.subscribe{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+div.subscribe h3{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: white;
+}
+
+div.subscribe h3 span{
+    font-size: 18px;
+    color: #4dddf8;
+    text-transform: uppercase;
+}
+
+div.subscribe input{
+    background-color: black;
+    border-radius: 3px;
+    border: 1px solid #7b7b7b;
+    padding: 10px 50px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+button.send{
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px 32px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+div.aside-rubrics h2{
+    color: #27d3f3;
+    font-size: 18px;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+div.aside-rubrics ul{
+    list-style-type: none;
+}
+div.aside-rubrics ul li{
+    padding: 12px 50px;
+    border: 1px solid black;
+    border-bottom: none;
+    /*border-radius: 3px;*/
+}
+div.aside-rubrics ul li:last-child{
+    border-bottom: 1px solid black;
+}
+div.aside-rubrics ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+div.aside-rubrics ul li a:hover{
+    color: #27d3f3;
+}
+
+a.aside-top,.aside-recent{
+    color: black;
+    font-size: 18px;
+    line-height: 63px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: none;
+}
+a.aside-top:hover{
+    background-color: #27d3f3;
+    color: white;
+
+}
+a.aside-recent:hover{
+    background-color: #27d3f3;
+    color: white;
+    text-decoration: none;
+}
+
+ h3.last-comments{
+    color: #27d3f3;
+    font-size: 18px;
+    line-height: 63px;
+    text-transform: uppercase;
+     font-family: 'MuseoSansCyrl700';
+}
+
+/*li.comments-recent{*/
+    /*margin-bottom: 25px;*/
+    /*list-style-type: none;*/
+/*}*/
+p.comment  {
+    background-color: #e8eeee;
+    border-radius: 3px;
+    padding: 5px 50px;
+    color: #464646;
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: 'MuseoSansCyrl900';
+}
+p.comment a{
+    color: #464646;
+    font-family: 'MuseoSansCyrl900';
+}
+
+span.comment-name{
+    color: #7d7d7d;
+}
+span.comment-date{
+    float: right;
+    color: #7d7d7d;
+}
+ul.aside-top-recent{
+    list-style-type: none;
+}
+
+a.title-recent p{
+    color: black;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: 'MuseoSansCyrl900';
+}
