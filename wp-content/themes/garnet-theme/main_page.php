@@ -9,6 +9,20 @@
 get_header();?>
 <script src="/wp-content/themes/garnet-theme/js/onlyHome.js"></script>
 
+
+<!--<form class="form text-center" method="get">-->
+<!--    <input type="text" name="name" placeholder="ВАШЕ ИМЯ">-->
+<!--    <input type="text" name="phone/mail" placeholder="ТЕЛЕФОН ИЛИ EMAIL ДЛЯ СВЯЗИ">-->
+<!--    <textarea type="text" name="object"  placeholder="КОРОТКО О ВАШЕМ ПРОЕКТЕ"></textarea>-->
+<!--    <div class="file-upload">-->
+<!--        <label>-->
+<!--            <input type="file" name="file">-->
+<!--            <span><img class="fileUp" src="/wp-content/themes/garnet-theme/img/fileUP.png" alt="fileUp"></span>-->
+<!--        </label>-->
+<!--        <input type="text" id="filename" class="filename" placeholder="ПРИКРЕПИТЬ ФАЙЛ" disabled>-->
+<!--    </div>-->
+<!--    <input type="submit" class="button" value="Отправить">-->
+<!--</form>-->
 <section>
     <div class="main">
         <div id="particle-slider">
@@ -424,7 +438,8 @@ get_header();?>
                 <p><span>Оставьте заявку</span> и мы перезвоним вам в ближайшее время.</p>
             </div>
            <div class="c__form">
-               <?php echo do_shortcode( '[contact-form-7 id="183" title="Без названия"]' );?>
+<!--               --><?php //echo do_shortcode( '[contact-form-7 id="183" title="Без названия"]' );?>
+               <?php echo do_shortcode( '[contact-form-7 id="248" title="Без названия"]' );?>
                <div class="down__l text-center wow bounceInLeft" data-wow-delay="0.5">
                    <a href="garnet.docx" download>
                        <img src="/wp-content/themes/garnet-theme/img/book-b.svg" alt="book" class="icon__c">
