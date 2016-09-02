@@ -123,6 +123,8 @@ function add_styles() { // добавление стилей
     wp_enqueue_style( 'owl', get_template_directory_uri().'/css/owl.carousel.css' ); // бутстрап
     wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' ); // бутстрап
     wp_enqueue_style( 'an', get_template_directory_uri().'/css/animate.css' ); // бутстрап
+    wp_enqueue_style( 'st_1', get_template_directory_uri().'/style_1.css' ); // бутстрап
+    wp_enqueue_style( 'st_2', get_template_directory_uri().'/style_2.css' ); // бутстрап
 	wp_enqueue_style( 'main', get_template_directory_uri().'/style.css' ); // основные стили шаблона
 }
 
