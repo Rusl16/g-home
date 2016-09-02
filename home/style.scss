@@ -3313,7 +3313,7 @@ padding-bottom: 50px;
   height: 300px;
   position: relative;
   margin-bottom: 55px;
-s
+
   .title{
     position: relative;
     top: -55px;
@@ -3389,6 +3389,170 @@ s
       &:hover{
         background-color: white;
         color: black;
+      }
+    }
+  }
+}
+
+
+//SERVICES.php
+
+.service{
+  margin-bottom: 200px;
+
+  .title h1{
+    font-size: 48px;
+    color: #4dddf8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: MuseoSansCyrl900;
+    margin: 50px 0 45px 0;
+  }
+
+  .wp-post-image{
+    filter: opacity(70%);
+    margin-top: 3px;
+  }
+
+  .--serv{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+
+
+    &:hover{
+      background-color: #242424;
+
+      .wp-post-image{
+        filter: opacity(100%);
+      }
+    }
+  }
+
+  .s__serv{
+    width: 60%;
+
+    h2{
+      font-family: MuseoSansCyrl900;
+      font-size: 30px;
+      color: #4dddf8;
+      text-transform: uppercase;
+      margin-top:0;
+    }
+
+    p{
+      font-family: MuseoSansCurl300;
+      font-size: 13.5px;
+      color: #979797;
+    }
+  }
+}
+
+@media screen and (max-width:1199px){
+
+  .service .s__serv{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 991px){
+
+  .service{
+    margin-bottom: 150px;
+
+    .wp-post-image{
+      width: 35%;
+      height: 100%;
+    }
+
+    .s__serv {
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      p{
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+
+  .service{
+
+    .title h1{
+      font-size: 3em;
+    }
+
+    .wp-post-image{
+      width: inherit;
+      height: 100%;
+    }
+
+    .s__serv {
+      width: 63%;
+
+      h2 {
+        font-size: 2em;
+      }
+
+      p{
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+@media screen and( max-width: 565px){
+
+  .service{
+    margin-bottom: 100px;
+
+    .title h1{
+      font-size: 2.8em;
+    }
+
+    .wp-post-image{
+      width: 120px;
+    }
+
+    .s__serv {
+      width: 58%;
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      p{
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:420px){
+
+  .service {
+
+    .title h1{
+      font-size: 2.5em;
+    }
+
+    .wp-post-image{
+      width: 100px;
+    }
+
+    .s__serv {
+      width: 50%;
+
+      h2{
+      font-size: 1.2em;
+      }
+
+      p{
+        font-size: 0.8em;
       }
     }
   }

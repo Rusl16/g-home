@@ -129,7 +129,7 @@ get_header();?>
                 <h2><span>Хотите</span> сотрудничать <span>?</span></h2>
             </div>
             <div class="tel">
-               <?php echo do_shortcode('[contact-form-7 id="201" title="tel"]');?>
+               <?php echo do_shortcode('[contact-form-7 id="249" title="Без названия"]');?>
             </div>
         </div>
     </div>

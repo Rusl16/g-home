@@ -55,7 +55,7 @@ get_header();?>
                 <p><span>Оставьте заявку</span> и мы перезвоним вам в ближайшее время.</p>
             </div>
             <div class="c__form">
-                <?php echo do_shortcode( '[contact-form-7 id="183" title="Без названия"]' );?>
+                <?php echo do_shortcode( '[contact-form-7 id="248" title="Без названия"]' );?>
                 <div class="down__l text-center wow bounceInLeft" data-wow-delay="0.5">
                     <a href="garnet.docx" download>
                         <img src="/wp-content/themes/garnet-theme/img/book-b.svg" alt="book" class="icon__c">
