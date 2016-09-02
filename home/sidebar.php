@@ -41,7 +41,7 @@
 		</div>
 
 	<ul>
-		<?php kama_recent_comments("limit=10&ex=100"); ?>
+		<?php kama_recent_comments("limit=3&ex=100"); ?>
 	</ul>
 
 

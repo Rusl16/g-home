@@ -165,7 +165,7 @@ class bootstrap_menu extends Walker_Nav_Menu { // внутри вывод
 
 function content_class_by_sidebar() { // функция для вывода класса в зависимости от существования виджетов в сайдбаре
 	if (is_active_sidebar( 'sidebar' )) { // если есть
-		echo 'col-sm-9'; // пишем класс на 80% ширины
+		echo 'col-sm-8'; // пишем класс на 80% ширины
 	} else { // если нет
 		echo 'col-sm-12'; // контент на всю ширину
 	}
@@ -447,7 +447,7 @@ function kama_recent_comments( $args = array() ){
 		$date = $comm -> {'comment_date'};
 		$comment = $comm -> {'comment_content'};
 
-		$out .= '<span class="comment-name">'.$author.'</span><span class="comment-date">'.$date.'</span><p class="comment"><a href="'. $com_url .'" title="к записи: '. esc_attr( $comm->post_title ) .'">'. $comtext .'</a></p>';
+		$out .= '<div class="aside-comments"><span class="comment-name">'.$author.'</span><span class="comment-date">'.$date.'</span><p class="comment"><a href="'. $com_url .'" title="к записи: '. esc_attr( $comm->post_title ) .'">'. $comtext .'</a></p></div>';
 
 
 	}

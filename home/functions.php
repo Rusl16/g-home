@@ -360,103 +360,101 @@ function dimox_breadcrumbs() {
 	}
 } // end of dimox_breadcrumbs()
 
-
 function kama_recent_comments( $args = array() ){
-	global $wpdb;
+    global $wpdb;
 
-	$def = array(
-		'limit'      => 3, // сколько комментов выводить.
-		'ex'         => 45, // n символов. Обрезка текста комментария.
-		'term'       => '', // id категорий/меток. Включить(5,12,35) или исключить(-5,-12,-35) категории. По дефолту - из всех категорий.
-		'gravatar'   => '', // Размер иконки в px. Показывать иконку gravatar. '' - не показывать.
-		'user'       => '', // id юзеров. Включить(5,12,35) или исключить(-5,-12,-35) комменты юзеров. По дефолту - все юзеры.
-		'echo'       => 1,  // выводить на экран (1) или возвращать (0).
-		'comm_type'  => '', // название типа комментария
-		'meta_query' => '', // WP_Meta_Query
-		'meta_key'   => '', // WP_Meta_Query
-		'meta_value' => '', // WP_Meta_Query
-		'url_patt'   => '', // оптимизация ссылки на коммент. Пр: '%s?all_comments#comment-%d' плейсхолдеры будут заменены на $post->guid и $comment->comment_ID
-	);
+    $def = array(
+        'limit'      => 3, // сколько комментов выводить.
+        'ex'         => 45, // n символов. Обрезка текста комментария.
+        'term'       => '', // id категорий/меток. Включить(5,12,35) или исключить(-5,-12,-35) категории. По дефолту - из всех категорий.
+        'gravatar'   => '', // Размер иконки в px. Показывать иконку gravatar. '' - не показывать.
+        'user'       => '', // id юзеров. Включить(5,12,35) или исключить(-5,-12,-35) комменты юзеров. По дефолту - все юзеры.
+        'echo'       => 1,  // выводить на экран (1) или возвращать (0).
+        'comm_type'  => '', // название типа комментария
+        'meta_query' => '', // WP_Meta_Query
+        'meta_key'   => '', // WP_Meta_Query
+        'meta_value' => '', // WP_Meta_Query
+        'url_patt'   => '', // оптимизация ссылки на коммент. Пр: '%s?all_comments#comment-%d' плейсхолдеры будут заменены на $post->guid и $comment->comment_ID
+    );
 
-	$args = wp_parse_args( $args, $def );
-	extract( $args );
+    $args = wp_parse_args( $args, $def );
+    extract( $args );
 
-	$AND = '';
+    $AND = '';
 
-	// ЗАПИСИ
-	if( $term ){
-		$cats = explode(',', $term );
-		$cats = array_map('intval', $cats );
+    // ЗАПИСИ
+    if( $term ){
+        $cats = explode(',', $term );
+        $cats = array_map('intval', $cats );
 
-		$CAT_IN = ( $cats[ key($cats) ] > 0 ); // из категорий или нет
+        $CAT_IN = ( $cats[ key($cats) ] > 0 ); // из категорий или нет
 
-		$cats = array_map('absint', $cats ); // уберем минусы
-		$AND_term_id = 'AND term_id IN ('. implode(',', $cats) .')';
+        $cats = array_map('absint', $cats ); // уберем минусы
+        $AND_term_id = 'AND term_id IN ('. implode(',', $cats) .')';
 
-		$posts_sql = "SELECT object_id FROM $wpdb->term_relationships rel LEFT JOIN $wpdb->term_taxonomy tax ON (rel.term_taxonomy_id = tax.term_taxonomy_id) WHERE 1 $AND_term_id ";
+        $posts_sql = "SELECT object_id FROM $wpdb->term_relationships rel LEFT JOIN $wpdb->term_taxonomy tax ON (rel.term_taxonomy_id = tax.term_taxonomy_id) WHERE 1 $AND_term_id ";
 
-		$AND .= ' AND comment_post_ID '. ($CAT_IN ? 'IN' : 'NOT IN') .' ('. $posts_sql .')';
-	}
+        $AND .= ' AND comment_post_ID '. ($CAT_IN ? 'IN' : 'NOT IN') .' ('. $posts_sql .')';
+    }
 
-	// ЮЗЕРЫ
-	if( $user ){
-		$users = explode(',', $user );
-		$users = array_map('intval', $users );
+    // ЮЗЕРЫ
+    if( $user ){
+        $users = explode(',', $user );
+        $users = array_map('intval', $users );
 
-		$USER_IN = ( $users[ key($users) ] > 0 );
+        $USER_IN = ( $users[ key($users) ] > 0 );
 
-		$users = array_map('absint', $users );
+        $users = array_map('absint', $users );
 
-		$AND .= ' AND user_id '. ($USER_IN ? 'IN' : 'NOT IN') .' ('. implode(',', $users) .')';
-	}
+        $AND .= ' AND user_id '. ($USER_IN ? 'IN' : 'NOT IN') .' ('. implode(',', $users) .')';
+    }
 
-	// WP_Meta_Query
-	$META_JOIN = '';
-	if( $meta_query || $meta_key || $meta_value ){
-		$mq = new WP_Meta_Query( $args );
-		$mq->parse_query_vars( $args );
-		if( $mq->queries ){
-			$mq_sql = $mq->get_sql('comment', $wpdb->comments, 'comment_ID' );
-			$META_JOIN = $mq_sql['join'];
-			$AND .= $mq_sql['where'];
-		}
-	}
+    // WP_Meta_Query
+    $META_JOIN = '';
+    if( $meta_query || $meta_key || $meta_value ){
+        $mq = new WP_Meta_Query( $args );
+        $mq->parse_query_vars( $args );
+        if( $mq->queries ){
+            $mq_sql = $mq->get_sql('comment', $wpdb->comments, 'comment_ID' );
+            $META_JOIN = $mq_sql['join'];
+            $AND .= $mq_sql['where'];
+        }
+    }
 
-	$sql = $wpdb->prepare("SELECT * FROM $wpdb->comments LEFT JOIN $wpdb->posts ON (ID = comment_post_ID ) $META_JOIN
- WHERE comment_approved = '1' AND comment_type = %s $AND ORDER BY comment_date DESC LIMIT %d", $comm_type, $limit );
+    $sql = $wpdb->prepare("SELECT * FROM $wpdb->comments LEFT JOIN $wpdb->posts ON (ID = comment_post_ID ) $META_JOIN
+	WHERE comment_approved = '1' AND comment_type = %s $AND ORDER BY comment_date DESC LIMIT %d", $comm_type, $limit );
 
-	//die( $sql );
-	$results = $wpdb->get_results( $sql );
+    //die( $sql );
+    $results = $wpdb->get_results( $sql );
 
-	if( ! $results ) return 'Комментариев нет.';
+    if( ! $results ) return 'Комментариев нет.';
 
-	// HTML
-	$out = $grava = '';
-	foreach ( $results as  $key => $comm ){
-		if( $gravatar )
-			$grava = get_avatar( $comm->comment_author_email, $gravatar );
+    // HTML
+    $out = $grava = '';
+    foreach ( $results as  $key => $comm ){
+        if( $gravatar )
+            $grava = get_avatar( $comm->comment_author_email, $gravatar );
 
-		$comtext = strip_tags( $comm->comment_content );
-		$com_url = $url_patt ? sprintf( $url_patt, $comm->guid, $comm->comment_ID ) : get_comment_link( $comm->comment_ID );
+        $comtext = strip_tags( $comm->comment_content );
+        $com_url = $url_patt ? sprintf( $url_patt, $comm->guid, $comm->comment_ID ) : get_comment_link( $comm->comment_ID );
 
-		$leight = (int) mb_strlen( $comtext );
-		if( $leight > $ex )
-			$comtext = mb_substr( $comtext, 0, $ex ) .' …';
-		//var_dump($comm);
-		$author = $comm -> {'comment_author'};
-		$date = $comm -> {'comment_date'};
-		$comment = $comm -> {'comment_content'};
+        $leight = (int) mb_strlen( $comtext );
+        if( $leight > $ex )
+            $comtext = mb_substr( $comtext, 0, $ex ) .' …';
+        //var_dump($comm);
+        $author = $comm -> {'comment_author'};
+        $date = $comm -> {'comment_date'};
+        $comment = $comm -> {'comment_content'};
 
-		$out .= '<span class="comment-name">'.$author.'</span><span class="comment-date">'.$date.'</span><p class="comment"><a href="'. $com_url .'" title="к записи: '. esc_attr( $comm->post_title ) .'">'. $comtext .'</a></p>';
+        $out .= '<span class="comment-name">'.$author.'</span><span class="comment-date">'.$date.'</span><p class="comment"><a href="'. $com_url .'" title="к записи: '. esc_attr( $comm->post_title ) .'">'. $comtext .'</a></p>';
 
 
-	}
+    }
 
-	if( $echo )
-		return print $out;
-	return $out;
+    if( $echo )
+        return print $out;
+    return $out;
 }
-
 
 //NUMBER_MASK
 add_action('wp_footer', 'wpmidia_activate_masked_input');
