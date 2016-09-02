@@ -396,6 +396,10 @@ canvas.draw{
   }
 }
 
+.main__ln{
+  margin-top: 20px;
+}
+
 .main{
   height: auto;
   padding-bottom: 60px;
@@ -466,7 +470,7 @@ canvas.draw{
     }
 
     &:hover p{
-      transform: translateY(-85px);
+      transform: translateY(-100px);
       font-size: 18px;
       font-family: MuseoSansCyrl700;
       color: #f26642;
@@ -1818,7 +1822,8 @@ a:active, a:focus, a:hover, a:visited {
 
 
 .main__l{
-  margin-top:70px;
+  margin-top: 80px;
+
   .icon__c{
     width: 100%!important;
     height: 100%!important;
@@ -1862,7 +1867,7 @@ a:active, a:focus, a:hover, a:visited {
     margin-bottom: 10px;
 
     path{
-      stroke:white!important;
+      stroke: white!important;
     }
   }
 

@@ -44,27 +44,27 @@ get_header();?>
                             <a href="#p__1" class="arrow__down"><img src="/wp-content/themes/garnet-theme/img/arrow.png" alt="arrow"></a>
                         </div>
                         <div id="p__1" class="main__block">
-                            <div  class="main__l col-md-7 col-xs-12">
-                                <div class="row">
-                                    <div class="main__serv col-md-4 col-sm-6 col-xs-2 wow fadeInLeft" data-wow-delay="0.6s">
-                                        <a href="#t_33" data-toggle="tab" class="active"><img class="img-responsive" src="/wp-content/themes/garnet-theme/img/dev-sites.png" alt="dev-sites"><p>Разработка сайтов</p></a>
-                                    </div>
-                                    <div class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.4s">
+                            <div  class="main__ln col-md-7 col-xs-12">
+                                <ul class="row">
+                                    <li class="main__serv col-md-4 col-sm-6 col-xs-2 wow fadeInLeft active" data-wow-delay="0.6s">
+                                        <a href="#t_33" data-toggle="tab"><img class="img-responsive" src="/wp-content/themes/garnet-theme/img/dev-sites.png" alt="dev-sites"><p>Разработка сайтов</p></a>
+                                    </li>
+                                    <li class="main__serv col-md-4 col-sm-6 col-xs-2 wow fadeInLeft" data-wow-delay="0.4s">
                                         <a href="#t_35" data-toggle="tab"><img class="img-responsive" src="/wp-content/themes/garnet-theme/img/mob-dev.png" alt="mob-dev"><p>Мобильные приложения</p></a>
-                                    </div>
-                                    <div class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.2s">
+                                    </li>
+                                    <li class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.2s">
                                         <a href="#t_134" data-toggle="tab"><img class="img-responsive" src="/wp-content/themes/garnet-theme/img/branding.png" alt="branding"><p>Брендинг</p></a>
-                                    </div>
-                                    <div class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.6s">
+                                    </li>
+                                    <li class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.6s">
                                         <a href="#t_136" data-toggle="tab"><img class="img-responsive" src="/wp-content/themes/garnet-theme/img/m-design.png" alt="m-design"><p>Моушн дизайн</p></a>
-                                    </div>
-                                    <div class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.4s">
+                                    </li>
+                                    <li class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.4s">
                                         <a href="#t_138" data-toggle="tab"><img class="img-responsive" src="/wp-content/themes/garnet-theme/img/reclama.png" alt="reclama"><p>Реклама</p></a>
-                                    </div>
-                                    <div class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.2s">
+                                    </li>
+                                    <li class="main__serv col-md-4 col-sm-6 col-xs-2  wow fadeInLeft" data-wow-delay="0.2s">
                                         <a href="#t_140" data-toggle="tab"><img class="img-responsive" src="/wp-content/themes/garnet-theme/img/move.png" alt="move"><p>Продвижения</p></a>
-                                    </div>
-                                </div>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="col-md-5 col-xs-12">
                                <div  class="main__t tab-content wow fadeInRight" data-wow-delay="1s" style="color: white;">
@@ -73,7 +73,7 @@ get_header();?>
                                        query_posts('cat=3');   // указываем ID рубрик, которые необходимо вывести.
                                        while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
                                            ?>
-                                           <div id="t_<?php echo the_ID();?>" class="tab-pane">
+                                           <div id="t_<?php echo the_ID();?>" class="tab-pane fade in">
                                                 <h3><?php the_title(); ?></h3>
                                                 <?php the_content();?>
                                            </div>
