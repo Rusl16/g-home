@@ -16,6 +16,16 @@ Author URI: http://dontforget.pro
 }
 
 @font-face {
+  font-family: "OpenSansLight";
+  src:url("/wp-content/themes/garnet-theme/fonts/OpenSansLight.ttf");
+}
+
+@font-face {
+  font-family: "RobotoThin";
+  src:url("/wp-content/themes/garnet-theme/fonts/RobotoThin.ttf");
+}
+
+@font-face {
   font-family: "MuseoSansCyrl500";
   src:url("/wp-content/themes/garnet-theme/fonts/MuseoSansCyrl500.otf");
 }
@@ -3560,5 +3570,507 @@ padding-bottom: 50px;
         font-size: 0.8em;
       }
     }
+  }
+}
+
+//ABOUT__US
+
+.about{
+  position: relative;
+  padding-bottom: 45px;
+
+  .title h1{
+    font-family: MuseoSansCyrl900;
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 80px 0 50px 0;
+
+    span{
+      color: #4dddf8;
+    }
+  }
+
+  &::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 15px;
+    bottom: 0;
+    background-image: url("img/pattern-w.png");
+    position: absolute;
+    background-color: transparent;
+    background-position-x: left;
+    background-position-y: top;
+  }
+
+  .desc p{
+    font-size: 31px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+
+    &:first-of-type{
+      font-family: MuseoSansCyrl900;
+
+      span{
+        color: #4dddf8;
+      }
+    }
+
+    &:nth-of-type(2){
+      font-family: MyriadProRegular;
+    }
+
+    &:nth-of-type(3){
+      font-family: MuseoSansCurl300;
+      letter-spacing: 5px;
+    }
+
+    &:last-of-type{
+      font-size: 24px;
+      font-family: MuseoSansCyrl900;
+      letter-spacing: 2px;
+
+      span{
+        color: #4dddf8;
+      }
+    }
+  }
+
+  .cms{
+
+    p{
+      font-size: 31px;
+      font-family: MuseoSansCyrl900;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      margin: 0;
+
+      span{
+        color: #4dddf8;
+      }
+    }
+  }
+
+  .offer p{
+    font-size: 31px;
+    font-family: MuseoSansCurl300;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+    &:first-of-type{
+      letter-spacing: 3px;
+      font-size: 27px;
+      font-family: MuseoSansCyrl700;
+
+      span{
+        color: #4dddf8;
+      }
+    }
+
+    &:nth-of-type(2){
+      letter-spacing: 8px;
+    }
+
+    &:last-of-type{
+      letter-spacing: 6px;
+      font-size: 32px;
+      font-family: MuseoSansCyrl900;
+
+      span{
+        color: #4dddf8;
+      }
+    }
+  }
+
+  .text p{
+    margin: 90px 0;
+    font-size: 16px;
+    color: white;
+    font-family: MuseoSansCurl300;
+    padding: 0 70px;
+  }
+}
+
+.ab__main{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.team{
+  padding: 50px 0;
+  background-color: white;
+  position: relative;
+
+  &::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 15px;
+    bottom: -15px;
+    background-image: url("img/pattern-w.png");
+    position: absolute;
+    background-color: transparent;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+
+  .title h2{
+    margin-bottom: 80px;
+    font-size: 48px;
+    font-family: MuseoSansCyrl900;
+    color: #5d5d5d;
+  }
+}
+
+.who__works{
+
+  h4{
+    font-size: 14px;
+    font-family: MuseoSansCyrl900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  p{
+    font-size: 14px;
+    font-family: RobotoThin;
+    color: black;
+  }
+
+  .photo__t {
+    padding-left: 150px;
+    position: relative;
+    margin-bottom: 70px;
+
+    &::before{
+      content: '';
+      display: block;
+      width: 100%;
+      height: 173px;
+      position: absolute;
+      left:-10px;
+      bottom: 0;
+
+    }
+
+    span {
+      height: 87px;
+      width: 87px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  .marketers {
+    &::before {
+      background-image: url("/wp-content/themes/garnet-theme/img/some-icons.png");
+      background-repeat: no-repeat;
+    }
+    span {
+      &:first-of-type {
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      }
+      &:last-of-type {
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -87px;
+      }
+    }
+  }
+
+  .ceo {
+    &::before {
+      background-image: url("/wp-content/themes/garnet-theme/img/some-icons.png");
+      background-repeat: no-repeat;
+      background-position-y: -173px;
+      bottom: -20px;
+      height: 191px;
+    }
+    span {
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -174px;
+    }
+  }
+
+  .account {
+    &::before {
+      background-image: url("/wp-content/themes/garnet-theme/img/some-icons.png");
+      background-repeat: no-repeat;
+      background-position-y: -362px;
+      height: 144px;
+      bottom: 25px;
+    }
+    span {
+      &:first-of-type {
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -261px;
+      }
+      &:last-of-type {
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -348px;
+      }
+    }
+  }
+
+  .project {
+    &::before {
+      background-image: url("/wp-content/themes/garnet-theme/img/some-icons.png");
+      background-repeat: no-repeat;
+      background-position-y: -505px;
+      left:-50px;
+      height: 171px;
+
+    }
+    .owl__c {
+      .pr__1 {
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -435px;
+      }
+      .pr__2{
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -1392px;
+      }
+      .pr__3{
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -522px;
+      }
+    }
+  }
+
+  .designers {
+    &::before {
+      background-image: url("/wp-content/themes/garnet-theme/img/some-icons.png");
+      background-repeat: no-repeat;
+      background-position-y: -677px;
+      left:-5px;
+      height: 190px;
+      bottom: -15px;
+    }
+    span {
+      &:first-of-type {
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -609px;
+      }
+      &:last-of-type {
+        background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+        background-position-y: -696px;
+      }
+    }
+  }
+
+  .devel{
+
+    &::before {
+      background-image: url("/wp-content/themes/garnet-theme/img/some-icons.png");
+      background-repeat: no-repeat;
+      background-position-y: -868px;
+      bottom: 20px;
+      height: 84px;
+    }
+
+  }
+}
+
+.developers{
+  margin-top: 20px;
+  position: relative;
+
+  &::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-image: url("/wp-content/themes/garnet-theme/img/punktir.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-25px;
+    left: -65px
+  }
+
+  span {
+    height: 87px;
+    width: 87px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 70px;
+
+    &:first-of-type {
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -783px;
+    }
+    &:nth-of-type(2){
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -870px;
+    }
+    &:nth-of-type(3){
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -957px;
+    }
+    &:nth-of-type(4){
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -1044px;
+    }
+    &:nth-of-type(5){
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -1131px;
+    }
+    &:nth-of-type(6){
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -1218px;
+    }
+    &:nth-of-type(7){
+      background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+      background-position-y: -1305px;
+    }
+    //&:last-of-type {
+    //  background-image: url('/wp-content/themes/garnet-theme/img/guys.png');
+    //  background-position-y: -1392px;
+    //}
+  }
+}
+
+.request{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 90px;
+
+  .modal__btn{
+    margin-top: 15px;
+    font-size: 17px;
+    color: white;
+    font-family: MuseoSansCyrl900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    height: 65px;
+    background-color: #e74f4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-bottom: 5px solid #f48381;
+    border-top: none;
+    transition: all 100ms ease;
+    position: relative;
+    top: 0;
+
+    span{
+      padding-left: 35px;
+      background-image: url('/wp-content/themes/garnet-theme/img/click_btn.png');
+      background-repeat: no-repeat;
+      background-position-x: left;
+    }
+
+    &:hover{
+      border-bottom: none;
+      top: 5px;
+      height: 60px;
+    }
+  }
+}
+
+.free__l{
+  clear: both;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 30px;
+
+  p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: MuseoSansCyrl900;
+    position: relative;
+    letter-spacing: 3px;
+
+    span{
+      padding-right: 15px;
+      letter-spacing: 0;
+
+      &:first-of-type{
+        font-size: 72px;
+        color: #e95b49;
+      }
+      &:last-of-type{
+        font-size: 48px;
+        color: #e95b49;
+        padding-top: 10px;
+      }
+    }
+
+    &::before{
+      content: '';
+      width: 150px;
+      height: 150px;
+      background-image: url("/wp-content/themes/garnet-theme/img/some-icons.png");
+      background-position-y: -975px;
+      display: block;
+      background-repeat: no-repeat;
+      position: absolute;
+      left:25%;
+      top:0;
+      margin-left: -50px;
+    }
+  }
+  
+
+
+  &::before{
+    content: "{";
+    display: block;
+    position: absolute;
+    left:50%;
+    font-size: 164px;
+    top:-70px;
+    margin-left: -90px;
+    transform: rotate(-90deg);
+    font-family: OpenSansLight;
+    color: #d4d4d4;
+  }
+}
+
+.--s__1{
+  margin-top: 50px;
+}
+
+.--serv__mod .title h2{
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0;
+  letter-spacing: 8px;
+  font-family: MuseoSansCurl300;
+  margin-bottom: 50px;
+
+  & span{
+    color: #4dddf8;
+    font-family: MuseoSansCyrl900;
+    letter-spacing: 0;
+  }
+}
+
+.map__serv{
+
+  &::before{
+    height: 30px;
+    width: 100%;
+
+  }
+
+  #map__l,
+  #map__r{
+    height: 520px;
+    width: 100%;
   }
 }
