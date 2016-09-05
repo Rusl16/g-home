@@ -4059,3 +4059,18 @@ padding-bottom: 50px;
     letter-spacing: 0;
   }
 }
+
+.map__serv{
+
+  &::before{
+    height: 30px;
+    width: 100%;
+
+  }
+
+  #map__l,
+  #map__r{
+    height: 520px;
+    width: 100%;
+  }
+}
