@@ -11,6 +11,7 @@ get_header(); // подключаем header.php ?>
 			<div class="<?php content_class_by_sidebar(); // функция подставит класс в зависимости от того есть ли сайдбар, лежит в functions.php ?>">
 				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); // старт цикла ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> <?php // контэйнер с классами и id ?>
+<!--<<<<<<< HEAD-->
 						<div class="head-article">
 						<h1 class="article-blog"><?php the_title(); // заголовок поста ?></h1>
 						 <span class="date-article"><?php echo get_the_date( 'j F  Y' ); ?></span>
@@ -41,14 +42,16 @@ get_header(); // подключаем header.php ?>
 							<span class="rate">Оцените материал: </span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
 						</div>
 
-						<h1><?php the_title(); // заголовок поста ?></h1>
-						<div class="meta">
-							<p>Опубликовано: <?php the_time('F j, Y в H:i'); ?></p> <?php // дата и время создания ?>
-							<p>Автор:  <?php the_author_posts_link(); ?></p>
-							<p>Категории: <?php the_category(',') ?></p> <?php // ссылки на категории в которых опубликован пост, через зпт ?>
-							<?php the_tags('<p>Тэги: ', ',', '</p>'); // ссылки на тэги поста ?>
-						</div>
-						<?php the_content(); // контент ?>
+
+<!--=======-->
+<!--						<h1>--><?php //the_title(); // заголовок поста ?><!--</h1>-->
+<!--						<div class="meta">-->
+<!--							<p>Опубликовано: --><?php //the_time('F j, Y в H:i'); ?><!--</p> --><?php //// дата и время создания ?>
+<!--							<p>Автор:  --><?php //the_author_posts_link(); ?><!--</p>-->
+<!--							<p>Категории: --><?php //the_category(',') ?><!--</p> --><?php //// ссылки на категории в которых опубликован пост, через зпт ?>
+<!--							--><?php //the_tags('<p>Тэги: ', ',', '</p>'); // ссылки на тэги поста ?>
+<!--						</div>-->
+<!--						--><?php //the_content(); // контент ?>
 					</article>
 				<?php endwhile; // конец цикла ?>
 <!--				--><?php //previous_post_link('%link', '<- Предыдущий пост: %title', TRUE); // ссылка на предыдущий пост ?><!-- -->
