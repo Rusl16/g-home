@@ -18,7 +18,7 @@ get_header();
                                        query_posts('cat=10');   // указываем ID рубрик, которые необходимо вывести.
                                        while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
                                            ?>
-                                           <div class="col-md-6 blog-article">
+                                           <div class="col-md-6 blog-article clear-padding">
 										   <?php echo the_post_thumbnail(large);?>
 
                                                <?php
@@ -51,5 +51,6 @@ get_header();
 </div>
 
 
-<div>
+
+
 <?php get_footer();?>
