@@ -10,7 +10,7 @@ function loadScript(src,callback){
     script.src = src;
 }
 
-loadScript('http://maps.googleapis.com/maps/api/js?AIzaSyBvpJoXCjk0a7mhaVzWVIGL9WyITxFtnp0&callback=initMap',
+loadScript('http://maps.googleapis.com/maps/api/js?key=AIzaSyBvpJoXCjk0a7mhaVzWVIGL9WyITxFtnp0&callback=initMap',
     function(){console.log('google-loader has been loaded, but not the maps-API ');});
 
 var kiev, odessa, markerOdessa, markerKiev;

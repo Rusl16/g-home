@@ -15,6 +15,14 @@ $(document).ready(function () {
         dots: true
     });
 
+    $('.owl__c').owlCarousel({
+        items:2,
+        loop:true,
+        nav:false,
+        dots:false,
+        autoplay:true
+    });
+
     // sv
     $('.icon__c').each(function () {
         var $img = $(this);

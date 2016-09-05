@@ -9,14 +9,13 @@
 <aside class="col-sm-4">
 
 	<?php dynamic_sidebar('sidebar'); // выводим сайдбар, имя определено в functions.php ?>
-    <div class="top-recent">
-	<ul class="nav nav-pills aside-nav">
-		<li class="active"><a data-toggle="pill" href="#aside-top" class="aside-top">Топ</a></li>
-		<li><a data-toggle="pill" href="#aside-recent" class="aside-recent">Недавнее</a></li>
+
+	<ul class="nav nav-pills">
+		<li class="active"><a data-toggle="pill" href="#aside-top">Топ</a></li>
+		<li><a data-toggle="pill" href="#aside-recent">Недавнее</a></li>
 
 	</ul>
-	</div>
-	<div class="tab-content aside-content">
+	<div class="tab-content">
 	<div id="aside-top" class="tab-pane fade in active">
 		<ul class="aside-top-recent">
 			<?php query_posts('category_name=Блог&showposts=3'); ?>
@@ -41,13 +40,9 @@
 	</div>
 		</div>
 
-	<h3 class="last-comments">Последние комментарии</h3>
-
-
-	<ul class="aside-recent-comments">
+	<ul>
 		<?php kama_recent_comments("limit=3&ex=100"); ?>
 	</ul>
-
 
 
 </aside>
