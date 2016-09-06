@@ -41,9 +41,16 @@ get_header(); // подключаем header.php ?>
 						<div class="rating">
 							<span class="rate">Оцените материал: </span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
 						</div>
+						<span class="share-social">поделиться в соц сетях:</span>
+						<ul class="aside-social-networks">
+							<li class="vk-aside"><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+							<li class="fb-aside"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li class="tw-aside"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li class="g-aside"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						</ul>
 
 
-<!--=======-->
+						<!--=======-->
 <!--						<h1>--><?php //the_title(); // заголовок поста ?><!--</h1>-->
 <!--						<div class="meta">-->
 <!--							<p>Опубликовано: --><?php //the_time('F j, Y в H:i'); ?><!--</p> --><?php //// дата и время создания ?>
