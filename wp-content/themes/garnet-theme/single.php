@@ -5,6 +5,7 @@
  * @subpackage garnet-theme
  */
 get_header(); // подключаем header.php ?>
+
 <section>
 	<div class="container">
 		<div class="row">
