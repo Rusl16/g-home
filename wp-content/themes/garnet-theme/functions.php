@@ -131,6 +131,7 @@ function add_styles() { // добавление стилей
     wp_enqueue_style( 'an', get_template_directory_uri().'/css/animate.css' ); // бутстрап
     wp_enqueue_style( 'st_1', get_template_directory_uri().'/style_1.css' ); // бутстрап
     wp_enqueue_style( 'st_2', get_template_directory_uri().'/style_2.css' ); // бутстрап
+	wp_enqueue_style( 'style-for-single-portfolio', get_template_directory_uri().'/single-portfolio.css' );
 	wp_enqueue_style( 'main', get_template_directory_uri().'/style.css' ); // основные стили шаблона
 }
 
@@ -171,7 +172,7 @@ class bootstrap_menu extends Walker_Nav_Menu { // внутри вывод
 
 function content_class_by_sidebar() { // функция для вывода класса в зависимости от существования виджетов в сайдбаре
 	if (is_active_sidebar( 'sidebar' )) { // если есть
-		echo 'col-sm-9'; // пишем класс на 80% ширины
+		echo 'col-sm-8'; // пишем класс на 80% ширины
 	} else { // если нет
 		echo 'col-sm-12'; // контент на всю ширину
 	}

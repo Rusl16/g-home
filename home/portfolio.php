@@ -32,6 +32,7 @@ get_header();?>
                                     <div class="cls">
                                         <?php echo the_post_thumbnail(lagre);?>
                                         <div class="m__name">
+                                            <a href="<?php get_the_permalink();?>">sdfsdfsdf</a>
                                             <h4><?php the_title(); ?></h4>
                                             <?php the_content();?>
                                         </div>
