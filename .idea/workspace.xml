@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="084ee73b-0d99-411d-ad6e-705ea2ad5895" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/about_us.php" afterPath="$PROJECT_DIR$/home/about_us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/js/main.js" afterPath="$PROJECT_DIR$/home/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/style.scss" afterPath="$PROJECT_DIR$/home/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/about_us.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/about_us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style.css" />
     </list>
     <ignored path="g-home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +33,18 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4219" column="0" selection-start-line="4219" selection-start-column="0" selection-end-line="4219" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="4367" column="27" selection-start-line="4367" selection-start-column="27" selection-end-line="4367" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -37,9 +53,22 @@
       <file leaf-file-name="about_us.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/about_us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6477">
-              <caret line="381" column="35" selection-start-line="381" selection-start-column="35" selection-end-line="381" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="355" column="42" selection-start-line="355" selection-start-column="42" selection-end-line="355" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="469" column="13" selection-start-line="469" selection-start-column="13" selection-end-line="469" selection-end-column="13" />
+              <folding>
+                <marker date="1473258212756" expanded="true" signature="20019:20163" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+                <marker date="1473258212756" expanded="true" signature="21005:21188" placeholder="SELECT * FRO... ${$wpdb-&gt;comments}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +126,6 @@
         <option value="$PROJECT_DIR$/home/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/home/contacts.php" />
         <option value="$PROJECT_DIR$/home/js/map.js" />
-        <option value="$PROJECT_DIR$/home/js/main.js" />
         <option value="$PROJECT_DIR$/home/js/onlyHome.js" />
         <option value="$PROJECT_DIR$/home/header.php" />
         <option value="$PROJECT_DIR$/home/main_page.php" />
@@ -107,7 +135,6 @@
         <option value="$PROJECT_DIR$/home/blog.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/home/single.php" />
-        <option value="$PROJECT_DIR$/home/functions.php" />
         <option value="$PROJECT_DIR$/home/portfolio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/portfolio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/functions.php" />
@@ -115,6 +142,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php" />
+        <option value="$PROJECT_DIR$/home/functions.php" />
+        <option value="$PROJECT_DIR$/home/js/main.js" />
         <option value="$PROJECT_DIR$/home/about_us.php" />
         <option value="$PROJECT_DIR$/home/style.scss" />
       </list>
@@ -189,6 +218,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,25 +330,25 @@
       <workItem from="1472739299582" duration="183000" />
       <workItem from="1473150739305" duration="16233000" />
       <workItem from="1473243975191" duration="13808000" />
-      <workItem from="1473267626339" duration="136000" />
+      <workItem from="1473267626339" duration="11838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377252000" />
+    <option name="totallyTimeSpent" value="388954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21785174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27602524" sideWeight="0.5117474" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3371522" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19639935" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -484,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -523,6 +563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="109" column="81" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -530,6 +571,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/js/map_serv.js" />
     <entry file="file://$PROJECT_DIR$/home/portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -572,18 +607,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="469" column="13" selection-start-line="469" selection-start-column="13" selection-end-line="469" selection-end-column="13" />
+          <folding>
+            <marker date="1473258212756" expanded="true" signature="20019:20163" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1473258212756" expanded="true" signature="21005:21188" placeholder="SELECT * FRO... ${$wpdb-&gt;comments}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/about_us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6477">
-          <caret line="381" column="35" selection-start-line="381" selection-start-column="35" selection-end-line="381" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="355" column="42" selection-start-line="355" selection-start-column="42" selection-end-line="355" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4219" column="0" selection-start-line="4219" selection-start-column="0" selection-end-line="4219" selection-end-column="0" />
+        <state relative-caret-position="280">
+          <caret line="4367" column="27" selection-start-line="4367" selection-start-column="27" selection-end-line="4367" selection-end-column="27" />
           <folding />
         </state>
       </provider>
