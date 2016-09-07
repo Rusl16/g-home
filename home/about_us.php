@@ -26,7 +26,7 @@ get_header();?>
 
         kiev = new google.maps.Map(document.getElementById('map__r'), {
             center: {lat: 50.3944334, lng: 30.4775495},
-            zoom: 12,
+            zoom: 11,
             styles: kievStyle,
             scrollwheel: false
         });
@@ -34,16 +34,17 @@ get_header();?>
         var markerOdessa = new google.maps.Marker({
             position: {lat: 46.471610, lng: 30.736011},
             map: odessa,
-            icon: "/lp/images/marker.png"
+            icon: "/wp-content/themes/garnet-theme/img/marker.png"
         });
 
         var markerKiev = new google.maps.Marker({
             position: {lat: 50.3944334, lng: 30.4775495},
             map: kiev,
-            icon: "/lp/images/marker.png"
+            icon: "/wp-content/themes/garnet-theme/img/marker.png"
         });
     }
 
+    console.log('map');
 </script>
     <section>
         <div class="about">
@@ -350,7 +351,7 @@ get_header();?>
                 <div class="row --m">
                     <div id="map__l"></div>
                     <div class="text__l">
-                        <p><span>г. Одесса,</span> Малая Арнаутская 64</p>
+                        <p><span>г. Одесса,</span>Малая Арнаутская 64</p>
                     </div>
                 </div>
             </div>
@@ -358,12 +359,33 @@ get_header();?>
                 <div class="row --m">
                     <div id="map__r"></div>
                     <div class="text__r">
-                        <p><span>г. Киев,</span> Ахтырский переулок 3</p>
+                        <p><span>г. Киев,</span>Ахтырский переулок 3</p>
                     </div>
                 </div>
             </div>
-            <div class="cont__cntr">
-                
+            <div class="cont__map">
+                <div class="mail">
+                    <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:office@garnet-soft.com">office@garnet-soft.com</a>
+                </div>
+                <div class="tel">
+                    <div class="mp__tel">
+                        <a href="tel:0(800)750013"><span>0 (800)</span> 75 00 13</a>
+                        <a href="tel:(048)7032289"><span>(048)</span> 703 22 89</a>
+                        <a href="tel:(098)5777747"><span>(098)</span> 577 77 47</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="deal text-center --about__mod">
+            <div class="container">
+                <div class="title">
+                    <h2><span>Хотите</span> сотрудничать <span>?</span></h2>
+                </div>
+                <div class="tel">
+                    <?php echo do_shortcode('[contact-form-7 id="249" title="Без названия"]');?>
+                </div>
             </div>
         </div>
     </section>
