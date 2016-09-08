@@ -242,7 +242,9 @@ div.subscribe input{
     background-color: black;
     border-radius: 3px;
     border: 1px solid #7b7b7b;
-    padding: 10px 50px;
+    width: 220px;
+    height: 40px;
+    padding: 0 10px;
     text-align: left;
     margin-bottom: 10px;
 }
@@ -266,7 +268,8 @@ div.aside-rubrics{
 div.aside-rubrics h2{
     color: #27d3f3;
     font-size: 18px;
-    line-height: 63px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-family: 'MuseoSansCyrl700';
 }
@@ -387,6 +390,11 @@ div.aside-comments span.comment-date{
 ul.aside-top-recent{
     list-style-type: none;
     padding: 0;
+}
+
+ul.aside-top-recent img{
+    width: 100%;
+    height: 100%;
 }
 
 a.title-recent p{
