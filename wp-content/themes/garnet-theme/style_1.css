@@ -397,3 +397,15 @@ a.title-recent p{
     margin-top: 10px;
     font-family: 'MuseoSansCyrl900';
 }
+
+.comments__blog{
+    clear: both;
+}
+
+.last__comments{
+    padding-left: 10px;
+}
+
+.--blog{
+    margin-top: 0!important;
+}

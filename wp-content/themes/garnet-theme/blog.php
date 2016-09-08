@@ -46,8 +46,17 @@ get_header(); ?>
 
 </div>
 </div>
-
-
-
+    <section>
+        <div class="deal text-center --about__mod --blog">
+            <div class="container">
+                <div class="title">
+                    <h2><span>Хотите</span> сотрудничать <span>?</span></h2>
+                </div>
+                <div class="tel">
+                    <?php echo do_shortcode('[contact-form-7 id="249" title="Без названия"]');?>
+                </div>
+            </div>
+        </div>
+    </section>
 <div>
 <?php get_footer();?>
