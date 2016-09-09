@@ -6,6 +6,15 @@
 
 }
 
+
+.single-post .widget{
+    padding-top: 100px;
+}
+
+.bgc__single{
+    background-color: white;
+    padding-top: 65px;
+}
 /*.bg ul {*/
     /*padding: 0;*/
 /*}*/
@@ -265,10 +274,9 @@ ul.share-networks {
 }
 
 
-video.article-video{
-
-    width: 711px;
-    height: 420px;
+video.article-video {
+    width: 100%;
+    height: 100%;
 }
 
 h3.comment-reply-title{
@@ -305,4 +313,28 @@ span.share{
 h2.discussion-comments{
     color: #e74f4c;
     font-family: 'MuseoSansCyrl900';
+}
+
+@media screen and (max-width: 1190px){
+
+    ul.aside-social-networks {
+        list-style-type: none;
+        padding-top: 15px;
+        padding-left: 0;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    ul.aside-social-networks li{
+        margin: 0 5px 10px 5px;
+    }
+
+    div.subscribe h3{
+        line-height: 30px;
+        padding-top: 20px;
+    }
+
+    .ch{
+        width: 100%!important;
+    }
 }

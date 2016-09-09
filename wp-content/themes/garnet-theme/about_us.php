@@ -171,7 +171,7 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-4  col-sm-4 col-xs-12 --s__1">
+                    <div class="col-md-4  col-sm-4 col-xs-7 --s__1 clearfix --s__t">
                         <div class="devel photo__t">
                             <h4>web developers</h4>
                             <p>Душа озарена неземной
@@ -180,7 +180,7 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-8 col-sm-8 --s__1">
+                    <div class="col-md-8 col-sm-8 col-xs-5 --s__1 --s__p">
                         <div class="row">
                             <div class="developers">
                                 <span class="pr__1"></span>
