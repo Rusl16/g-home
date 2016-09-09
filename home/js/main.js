@@ -16,11 +16,49 @@ $(document).ready(function () {
     });
 
     $('.owl__c').owlCarousel({
-        items:2,
         loop:true,
         nav:false,
         dots:false,
-        autoplay:true
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            1191:{
+                items:2
+            }
+        }
+    });
+
+    $('.developers').owlCarousel({
+        loop:true,
+        nav:false,
+        dots:false,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+
+            500:{
+                items:2
+            },
+
+            680:{
+                items:3
+            },
+
+            768:{
+                items:4
+            },
+
+            991:{
+                items:6
+            },
+            1191:{
+                items:7
+            }
+        }
     });
 
     // sv

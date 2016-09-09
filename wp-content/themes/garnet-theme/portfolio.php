@@ -30,10 +30,9 @@ get_header();?>
                             <div class="col-sm-4">
                                 <div class="row">
                                     <div class="cls">
-                                        <a href="<?php echo get_permalink(); ?>">sdfsdfsdf</a>
-                                        <? var_du ?>
                                         <?php echo the_post_thumbnail(lagre);?>
                                         <div class="m__name">
+                                            <a href="<?php get_the_permalink();?>">sdfsdfsdf</a>
                                             <h4><?php the_title(); ?></h4>
                                             <?php the_content();?>
                                         </div>

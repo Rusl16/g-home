@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="084ee73b-0d99-411d-ad6e-705ea2ad5895" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/single.php" afterPath="$PROJECT_DIR$/home/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css" />
     </list>
     <ignored path="g-home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,6 +18,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -26,8 +31,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="3004" column="0" selection-start-line="3004" selection-start-column="0" selection-end-line="3004" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -48,13 +53,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+      </state>
+      </provider>
+      </entry>
+      </file>
+      <file leaf-file-name="style_2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="337" column="30" selection-start-line="337" selection-start-column="30" selection-end-line="337" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php">
+      <file leaf-file-name="style_1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
@@ -80,16 +94,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+            <state relative-caret-position="240">
+              <caret line="396" column="16" selection-start-line="396" selection-start-column="16" selection-end-line="396" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/category.php">
+      <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/blog.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            </state>
+            <state relative-caret-position="157">
+              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -113,19 +133,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2193">
               <caret line="133" column="99" selection-start-line="133" selection-start-column="99" selection-end-line="133" selection-end-column="99" />
+      </state>
               <folding>
                 <marker date="1473164944409" expanded="true" signature="20484:20628" ph="SELECT objec... ${$wpdb-&gt;term_relationships}" />
                 <marker date="1473164944409" expanded="true" signature="21470:21653" ph="SELECT * FRO... ${$wpdb-&gt;comments}" />
               </folding>
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false"/>
+        <entry file="file://$PROJECT_DIR$/home/sidebar.php"/>
+          <provider selected="true" editor-type-id="text-editor">
+            </provider>
+            <state relative-caret-position="112">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/portfolio.php">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/single.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+            </state>
+            <state relative-caret-position="274">
+              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -153,11 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/home/404.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/home/archive.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/home/author.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/home/category.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/home/comments.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/home/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/home/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/home/header.php" />
@@ -186,32 +212,36 @@
         <option value="$PROJECT_DIR$/home/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/home/contacts.php" />
         <option value="$PROJECT_DIR$/home/js/map.js" />
-        <option value="$PROJECT_DIR$/home/js/main.js" />
         <option value="$PROJECT_DIR$/home/js/onlyHome.js" />
         <option value="$PROJECT_DIR$/home/header.php" />
         <option value="$PROJECT_DIR$/home/main_page.php" />
-        <option value="$PROJECT_DIR$/home/sidebar.php" />
         <option value="$PROJECT_DIR$/home/page.php" />
         <option value="$PROJECT_DIR$/home/page-custom.php" />
-        <option value="$PROJECT_DIR$/home/blog.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/home/style.scss" />
-        <option value="$PROJECT_DIR$/home/single.php" />
-        <option value="$PROJECT_DIR$/home/functions.php" />
         <option value="$PROJECT_DIR$/home/portfolio.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/portfolio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/sidebar.php" />
+        <option value="$PROJECT_DIR$/home/js/main.js" />
+        <option value="$PROJECT_DIR$/home/about_us.php" />
+        <option value="$PROJECT_DIR$/home/blog.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php" />
+        <option value="$PROJECT_DIR$/home/style.scss" />
+        <option value="$PROJECT_DIR$/home/functions.php" />
+        <option value="$PROJECT_DIR$/home/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css" />
+        <option value="$PROJECT_DIR$/home/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
@@ -220,7 +250,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -268,13 +298,99 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="garnet-theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g-home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../garnet-soft" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/openserver/Open/domains/g-home/home/js/main.js" />
@@ -283,9 +399,6 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -313,19 +426,6 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -376,6 +476,12 @@
       <workItem from="1473321885673" duration="111000" />
       <workItem from="1473327354386" duration="618000" />
       <workItem from="1473432186199" duration="428000" />
+      <workItem from="1473150739305" duration="16233000" />
+      <workItem from="1473243975191" duration="13808000" />
+      <workItem from="1473267626339" duration="12311000" />
+      <workItem from="1473316427076" duration="5520000" />
+      <workItem from="1473327748327" duration="13248000" />
+      <workItem from="1473349374391" duration="6680000" />
     </task>
     <servers />
   </component>
@@ -404,12 +510,28 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66448444" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41080198" sideWeight="0.48937786" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+    <option name="totallyTimeSpent" value="414875000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22692889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27602524" sideWeight="0.5117474" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30932897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2667758" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -450,55 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1290">
-          <caret line="197" column="13" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77163">
-          <caret line="4539" column="5" selection-start-line="4539" selection-start-column="5" selection-end-line="4539" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/js/ease.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/js/segment.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/js/jquery.jpanelmenu.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="356" column="5" selection-start-line="356" selection-start-column="5" selection-end-line="356" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/js/jquery.jpanelmenu.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="113" column="51" selection-start-line="113" selection-start-column="51" selection-end-line="113" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header__1.php" />
     <entry file="file://$PROJECT_DIR$/home/header_2.php" />
     <entry file="file://$PROJECT_DIR$/home/header__1.php" />
@@ -546,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/js/onlyHome.js" />
     <entry file="file://$PROJECT_DIR$/home/tag.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -562,13 +628,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/js/map.js" />
-    <entry file="file://$PROJECT_DIR$/home/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/img/bg-team-blue.jpg" />
     <entry file="file://$PROJECT_DIR$/home/header.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -599,10 +658,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/contacts.php" />
-    <entry file="file://$PROJECT_DIR$/home/blog.php" />
     <entry file="file://$PROJECT_DIR$/home/portfolio.php" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css"/>
+    <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -623,28 +682,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js" />
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+        <state relative-caret-position="527">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-500">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="28" />
         </state>
+        <state relative-caret-position="2159">
+          <caret line="131" column="63" selection-start-line="131" selection-start-column="63" selection-end-line="131" selection-end-column="63" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php" />
+    <entry file="file://$PROJECT_DIR$/home/test.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/test.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
           <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
@@ -653,26 +737,66 @@
             <marker date="1473150990870" expanded="true" signature="21005:21188" ph="SELECT * FRO... ${$wpdb-&gt;comments}" />
           </folding>
         </state>
+        <state relative-caret-position="1054">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/single.php">
+    <entry file="file://$PROJECT_DIR$/home/js/map_serv.js" />
+    <entry file="file://$PROJECT_DIR$/home/portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
+        <state relative-caret-position="34">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="136" selection-end-column="10" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/portfolio.php">
+    <entry file="file://$PROJECT_DIR$/home/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/about_us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/about_us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="34" column="73" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+        <state relative-caret-position="262">
+          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="249">
+          <caret line="3004" column="0" selection-start-line="3004" selection-start-column="0" selection-end-line="3004" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -681,31 +805,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="133" column="99" selection-start-line="133" selection-start-column="99" selection-end-line="133" selection-end-column="99" />
-          <folding>
-            <marker date="1473164944409" expanded="true" signature="20484:20628" ph="SELECT objec... ${$wpdb-&gt;term_relationships}" />
-            <marker date="1473164944409" expanded="true" signature="21470:21653" ph="SELECT * FRO... ${$wpdb-&gt;comments}" />
-          </folding>
-        </state>
-      </provider>
+    </state>
+    </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="133" column="99" selection-start-line="133" selection-start-column="99" selection-end-line="133" selection-end-column="99" />
+        </state>
+        <state relative-caret-position="-235">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <marker date="1473364871116" expanded="false" signature="9:94" placeholder=" Шаблон сайдбара (sidebar.php) ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+
+        <state relative-caret-position="240">
+          <caret line="396" column="16" selection-start-line="396" selection-start-column="16" selection-end-line="396" selection-end-column="16" />
+
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="221">
           <caret line="109" column="81" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="81" />
         </state>
@@ -715,28 +862,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+
+        <state relative-caret-position="297">
+          <caret line="337" column="30" selection-start-line="337" selection-start-column="30" selection-end-line="337" selection-end-column="30" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.css">
+    <entry file="file://$PROJECT_DIR$/home/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="408">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+
+        <state relative-caret-position="112">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="49" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php">
+    <entry file="file://$PROJECT_DIR$/home/functions.php">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="1445">
           <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+      </state>
+        <state relative-caret-position="121">
+          <caret line="167" column="15" selection-start-line="167" selection-start-column="14" selection-end-line="167" selection-end-column="15" />
+
           <folding>
-            <element signature="e#6#52#0#PHP" expanded="true" />
+            <marker date="1473351248883" expanded="true" signature="20028:20172" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1473351248883" expanded="true" signature="21014:21197" placeholder="SELECT * FRO... ${$wpdb-&gt;comments}" />
           </folding>
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -749,6 +914,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        </state>
+    </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+
           <folding />
         </state>
       </provider>

@@ -26,7 +26,7 @@ get_header();?>
 
         kiev = new google.maps.Map(document.getElementById('map__r'), {
             center: {lat: 50.3944334, lng: 30.4775495},
-            zoom: 12,
+            zoom: 11,
             styles: kievStyle,
             scrollwheel: false
         });
@@ -34,16 +34,17 @@ get_header();?>
         var markerOdessa = new google.maps.Marker({
             position: {lat: 46.471610, lng: 30.736011},
             map: odessa,
-            icon: "/lp/images/marker.png"
+            icon: "/wp-content/themes/garnet-theme/img/marker.png"
         });
 
         var markerKiev = new google.maps.Marker({
             position: {lat: 50.3944334, lng: 30.4775495},
             map: kiev,
-            icon: "/lp/images/marker.png"
+            icon: "/wp-content/themes/garnet-theme/img/marker.png"
         });
     }
 
+    console.log('map');
 </script>
     <section>
         <div class="about">
@@ -59,7 +60,7 @@ get_header();?>
                     <a href="#ab__1" class="arrow__down"><img src="/wp-content/themes/garnet-theme/img/arrow.png" alt="arrow"></a>
                 </div>
                 <div id="ab__1" class="ab__main">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="desc">
                             <p><span>Мы</span> &mdash; эксперты</p>
                             <p>в современных</p>
@@ -67,14 +68,14 @@ get_header();?>
                             <p>создания <span>сайтов</span></p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="cms">
                             <p><span>У нас</span></p>
                             <p>собственная</p>
                             <p><span>CMS система</span></p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="offer">
                             <p><span>Мы </span> предоставляем</p>
                             <p>качественную</p>
@@ -101,10 +102,12 @@ get_header();?>
                     <h2>Кто работает над Вашим проектом</h2>
                 </div>
                 <div class="who__works row">
-                    <div class="col-md-4 l__side">
+                    <div class="col-md-4 col-sm-4 col-xs-12 l__side">
                         <div class="marketers photo__t">
-                            <span></span>
-                            <span></span>
+                            <div class="owl__c">
+                                <span class="pr__1"></span>
+                                <span class="pr__2"></span>
+                            </div>
                             <h4>marketers</h4>
                             <p>Душа озарена неземной
                                 радостью, как эти чудесные
@@ -112,9 +115,9 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-4 l__side">
+                    <div class="col-md-4 col-sm-4 col-xs-12 l__side">
                         <div class="ceo photo__t">
-                            <span></span>
+                                <span></span>
                             <h4>ceo</h4>
                             <p>Душа озарена неземной
                                 радостью, как эти чудесные
@@ -122,9 +125,12 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-4 l__side">
+                    <div class="col-md-4 col-sm-4 col-xs-12 l__side">
                         <div class="account photo__t">
-                            <span></span><span></span>
+                            <div class="owl__c">
+                                <span class="pr__1"></span>
+                                <span class="pr__2"></span>
+                            </div>
                             <h4>Account managers</h4>
                             <p>Душа озарена неземной
                                 радостью, как эти чудесные
@@ -132,7 +138,7 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-4 l__side">
+                    <div class="col-md-4 col-sm-4 col-xs-12 l__side">
                         <div class="project photo__t">
                             <div class="owl__c">
                                 <span class="pr__1"></span>
@@ -146,16 +152,18 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="request">
                             <img src="/wp-content/themes/garnet-theme/img/1-01.svg" alt="work-team_logo">
                             <a href="#" class="modal__btn"><span>Подать заявку</span></a>
                         </div>
                     </div>
-                    <div class="col-md-4 l__side">
+                    <div class="col-md-4 col-sm-4 col-xs-12 l__side">
                         <div class="designers photo__t">
-                            <span></span>
-                            <span></span>
+                            <div class="owl__c">
+                                <span class="pr__1"></span>
+                                <span class="pr__2"></span>
+                            </div>
                             <h4>designers</h4>
                             <p>Душа озарена неземной
                                 радостью, как эти чудесные
@@ -163,7 +171,7 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-4 --s__1">
+                    <div class="col-md-4  col-sm-4 col-xs-7 --s__1 clearfix --s__t">
                         <div class="devel photo__t">
                             <h4>web developers</h4>
                             <p>Душа озарена неземной
@@ -172,17 +180,16 @@ get_header();?>
                                 наслаждаюсь</p>
                         </div>
                     </div>
-                    <div class="col-md-8 --s__1">
+                    <div class="col-md-8 col-sm-8 col-xs-5 --s__1 --s__p">
                         <div class="row">
                             <div class="developers">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                                <span class="pr__1"></span>
+                                <span class="pr__2"></span>
+                                <span class="pr__3"></span>
+                                <span class="pr__4"></span>
+                                <span class="pr__5"></span>
+                                <span class="pr__6"></span>
+                                <span class="pr__7"></span>
                             </div>
                         </div>
                     </div>
@@ -346,24 +353,45 @@ get_header();?>
     </section>
     <section>
         <div class="map__serv">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="row --m">
                     <div id="map__l"></div>
                     <div class="text__l">
-                        <p><span>г. Одесса,</span> Малая Арнаутская 64</p>
+                        <p><span>г. Одесса,</span>Малая Арнаутская 64</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="row --m">
                     <div id="map__r"></div>
                     <div class="text__r">
-                        <p><span>г. Киев,</span> Ахтырский переулок 3</p>
+                        <p><span>г. Киев,</span>Ахтырский переулок 3</p>
                     </div>
                 </div>
             </div>
-            <div class="cont__cntr">
-                
+            <div class="cont__map">
+                <div class="mail">
+                    <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:office@garnet-soft.com">office@garnet-soft.com</a>
+                </div>
+                <div class="tel">
+                    <div class="mp__tel">
+                        <a href="tel:0(800)750013"><span>0 (800)</span> 75 00 13</a>
+                        <a href="tel:(048)7032289"><span>(048)</span> 703 22 89</a>
+                        <a href="tel:(098)5777747"><span>(098)</span> 577 77 47</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="deal text-center --about__mod">
+            <div class="container">
+                <div class="title">
+                    <h2><span>Хотите</span> сотрудничать <span>?</span></h2>
+                </div>
+                <div class="tel">
+                    <?php echo do_shortcode('[contact-form-7 id="249" title="Без названия"]');?>
+                </div>
             </div>
         </div>
     </section>
