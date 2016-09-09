@@ -9,7 +9,6 @@
 get_header();?>
 
 <section>
-    mdsn ds csd c
     <div class="container">
         <div class="c__links --mrg">
             <h1>Портфолио</h1>
@@ -24,7 +23,7 @@ get_header();?>
             <div id="all">
                 <?php
                 if ( have_posts() ) : // если имеются записи в блоге.
-                    query_posts('cat=14');   // указываем ID рубрик, которые необходимо вывести.
+                    query_posts('cat=16');   // указываем ID рубрик, которые необходимо вывести.
                     while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
                         ?>
                             <div class="col-sm-4">

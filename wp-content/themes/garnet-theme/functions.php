@@ -470,4 +470,9 @@ function wpmidia_activate_masked_input(){
 	</script>
 	<?php
 }
+
+
+///pagination
+
+
 ?>

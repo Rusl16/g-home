@@ -46,7 +46,8 @@ div.test-bg h1{
 
 
 div.blog-article{
-    margin-bottom: 25px;
+    margin-bottom: 45px;
+    height: 400px;
 
 }
 div.blog-article h3{
@@ -219,6 +220,24 @@ li.g-aside i{
     height: 100%;
 }
 
+.sidebar__bt{
+    margin: 20px 0;
+}
+
+.sidebar__bt a{
+    padding: 23px;
+    font-size: 18px;
+    font-family: MuseoSansCyrl900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.sidebar__bt .active a{
+    background-color: #27d3f3!important;
+    color: white;
+}
+
 div.subscribe{
     background-color: black;
     text-align: center;
@@ -242,7 +261,7 @@ div.subscribe input{
     background-color: black;
     border-radius: 3px;
     border: 1px solid #7b7b7b;
-    width: 220px;
+    width: 80%;
     height: 40px;
     padding: 0 10px;
     text-align: left;
@@ -259,6 +278,7 @@ button.send{
     line-height: 14px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    width: 80%;
 }
 
 div.aside-rubrics{
@@ -271,7 +291,8 @@ div.aside-rubrics h2{
     margin-top: 30px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    font-family: 'MuseoSansCyrl700';
+    font-family: 'MuseoSansCyrl900';
+    letter-spacing: 1px;
 }
 
 div.aside-rubrics ul{
@@ -344,6 +365,17 @@ div.aside-comments{
 
 }
 
+.comments__blog h3{
+    font-family: "Museo Sans Cyrl 900";
+    font-size: 18px;
+    color: #27d3f3;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+
  h3.last-comments{
     color: #27d3f3;
     font-size: 18px;
@@ -404,15 +436,49 @@ a.title-recent p{
     text-transform: uppercase;
     margin-top: 10px;
     font-family: 'MuseoSansCyrl900';
+    text-align: center;
 }
 
 .comments__blog{
     clear: both;
+    margin-top: 10px;
 }
 
 .last__comments{
-    padding-left: 10px;
+    padding-left: 0;
 }
+
+.last__comments .comment{
+    padding: 20px;
+    background-color: #e8eeee;
+    margin-bottom: 25px;
+}
+
+.last__comments a{
+    font-size: 11px;
+    font-family: MuseoSansCyrl900;
+    color: #464646;
+    text-decoration: none;
+
+}
+
+.last__comments .comment-name{
+    font-size: 12px;
+    font-family: MuseoSansCyrl500;
+    color: #7d7d7d;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.last__comments .comment-date{
+    font-size: 11px;
+    font-family: MuseoSansCyrl500;
+    color: #7d7d7d;
+    text-transform: uppercase;
+    float: right;
+    line-height: 2;
+}
+
 
 .--blog{
     margin-top: 0!important;

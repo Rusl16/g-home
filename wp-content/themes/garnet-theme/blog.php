@@ -29,7 +29,7 @@ get_header(); ?>
                             }
                         }
                         ?>
-                        <!--                <span>--><?php //echo wp_get_post_tags($post_id, $taxonomies) ?><!--</span>-->
+                        <!--<span>--><?php //echo wp_get_post_tags($post_id, $taxonomies) ?><!--</span>-->
                         <span class="date"><?php echo get_the_date( 'j F  Y' ); ?></span>
                         <h3><?php the_title(); ?></h3>
                         <a class="read-more" href="<?php the_permalink(); ?>">Читать далее</a>

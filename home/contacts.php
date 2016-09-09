@@ -12,8 +12,10 @@ get_header();?>
        <div class="container">
            <div class="c__links">
                <h1>КОнтакты</h1>
-               <a class="map__btn__od active" href="#map__od" data-toggle="tab">Одесса</a>
-               <a class="map__btn__ki" href="#map__ki" data-toggle="tab">Киев</a>
+               <ul class="map__active">
+                   <li class="map__li active"><a class="map__btn__od" href="#map__od" data-toggle="tab">Одесса</a></li>
+                   <li class="map__li"><a class="map__btn__ki" href="#map__ki" data-toggle="tab">Киев</a></li>
+               </ul>
            </div>
        </div>
    </section>

@@ -21,7 +21,7 @@
 
 .bg .wp-post-image{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 /*div.meta{*/
@@ -336,5 +336,27 @@ h2.discussion-comments{
 
     .ch{
         width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    .--side__mod{
+        padding: 0;
+    }
+
+    .title-recent p{
+        font-size: 13px!important;
+    }
+
+    .blog-article{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    ul.aside-social-networks {
+        width: 100%;
     }
 }

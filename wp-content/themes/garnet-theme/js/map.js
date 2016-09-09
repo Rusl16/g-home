@@ -45,22 +45,5 @@ function initMap() {
 
 
 
-$('.map__btn__od').click(function (e){
-    if($(".map__btn__od").hasClass("active")){
-        e.preventDefault();
-        return false;
-    }
-    $(".map__btn__ki.active").removeClass("active");
-    $(this).addClass('active');
 
-
-});
-$('.map__btn__ki').click(function (e){
-    if($(".map__btn__ki").hasClass("active")){
-        e.preventDefault();
-        return false;
-    }
-    $(".map__btn__od.active").removeClass("active");
-    $(this).addClass('active');
-});
 

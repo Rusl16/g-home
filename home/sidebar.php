@@ -9,15 +9,15 @@
 <aside class="col-sm-4">
 
 	<?php dynamic_sidebar('sidebar'); // выводим сайдбар, имя определено в functions.php ?>
-	<div class="col-md-12">
-		<ul class="nav nav-pills">
+	<div class="col-md-12 --side__mod">
+		<ul class="nav nav-pills sidebar__bt">
 			<li class="active"><a data-toggle="pill" href="#aside-top">Топ</a></li>
 			<li><a data-toggle="pill" href="#aside-recent">Недавнее</a></li>
 		</ul>
 	</div>
 	<div class="tab-content">
 	<div id="aside-top" class="tab-pane fade in active">
-		<div class="col-md-12">
+		<div class="col-md-12  --side__mod">
 			<ul class="aside-top-recent">
 				<?php query_posts('category_name=Блог&showposts=3'); ?>
 				<?php while (have_posts()) : the_post(); ?>
@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<div id="aside-recent" class="tab-pane fade">
-		<div class="col-md-12">
+		<div class="col-md-12 ">
 			<ul class="aside-top-recent">
 				<?php query_posts('category_name=Блог&showposts=3'); ?>
 				<?php while (have_posts()) : the_post(); ?>
@@ -43,7 +43,8 @@
 		</div>
 	</div>
 </div>
-	<div class="comments__blog col-md-12">
+	<div class="comments__blog col-md-12  --side__mod">
+		<h3>Последние комментарии</h3>
 		<ul class="last__comments">
 			<?php kama_recent_comments("limit=3&ex=100"); ?>
 		</ul>
