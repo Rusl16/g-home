@@ -43,7 +43,7 @@ get_header(); ?>
         </div>
     </div>
     <?php get_sidebar();?>
-
+    <?php pagination(); // пагинация, функция нах-ся в function.php ?>
 </div>
 </div>
     <section>

@@ -46,4 +46,15 @@ function initMap() {
 
 
 
-
+    $(document).ready(function(){
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
+            //Получить название активной вкладки
+            var activeTab = $(e.target).text();
+            // Получить название предыдущей активной вкладки
+            var previousTab = $(e.relatedTarget).text();
+            $("#map-odessa").html(activeTab);
+            initMap();
+            $("#map-kiev").html(previousTab);
+            initMap();
+        });
+    });

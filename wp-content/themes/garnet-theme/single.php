@@ -15,7 +15,7 @@ get_header(); // подключаем header.php ?>
 						<div class="head-article">
 							<h1 class="article-blog"><?php the_title(); // заголовок поста ?></h1>
 							<span class="date-article"><?php echo get_the_date( 'j F  Y' ); ?></span>
-							<span class="author">автор: <span class="author-name"><?php the_author(); ?></span></span>
+							<span class="author">автор: <span class="author-name"><?php the_field('author_name');?></span></span>
 							<span class="count-comments"><?php comments_number('Комментариев нет','1', '%'); ?></span>
 
 							<?php
@@ -31,9 +31,9 @@ get_header(); // подключаем header.php ?>
 						<?php the_content();
 						// контент
 						?>
-						<span class="author-low-section">автор:<?php the_author(); ?></span>
+						<span class="author-low-section">автор: <img src="<?php the_field('author_photo');?>" alt=""> <p><?php the_field('author_name');?></p></span>
 						<div class="rating">
-							<span class="rate">Оцените материал: </span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+							<span class="rate">Оцените материал: <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
 						</div>
 						<span class="share-social">поделиться в соц сетях:</span>
 						<ul class="aside-social-networks ch">
@@ -44,7 +44,6 @@ get_header(); // подключаем header.php ?>
 						</ul>
 					</article>
 				<?php endwhile; // конец цикла ?>
-
 				<?php if (comments_open() || get_comments_number()) comments_template('', true); // если комментирование открыто - мы покажем список комментариев и форму, если закрыто, но кол-во комментов > 0 - покажем только список комментариев ?>
 			</div>
 			<?php get_sidebar(); // подключаем sidebar.php ?>

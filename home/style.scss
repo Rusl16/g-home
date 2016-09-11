@@ -286,6 +286,9 @@ canvas.draw{
     left: 50%;
     border-left: 1px solid white;
     transition: all 400ms ease;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
 
     li {
       padding-left: 25px;

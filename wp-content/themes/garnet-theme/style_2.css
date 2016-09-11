@@ -163,6 +163,7 @@ span.article-rubric{
     color: #7d7d7d;
     line-height: 14px;
     text-transform: uppercase;
+    margin-top: -10px;
 }
 
 div.time-for-reading{
@@ -241,19 +242,34 @@ div.low-section{
 span.author-low-section{
     color: black;
     font-family: 'MuseoSansCyrl900';
-    margin-right: 15px;
+    margin-right: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 span.author-name-low-section{
     margin-left: 15px;
 }
 
-
+.rating{
+    margin: 20px 0;
+}
+span.share-social,
 span.rate{
     color: black;
     font-family: 'MuseoSansCyrl900';
     margin-right: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
 }
+
+
+.post-ratings{
+    display: inline-block;
+    width: auto;
+    margin-left: 20px;
+}
+
 div.rate-material{
     display: inline-block;
 }
@@ -315,6 +331,61 @@ h2.discussion-comments{
     font-family: 'MuseoSansCyrl900';
 }
 
+span.author-low-section img{
+    width: 60px;
+    margin-left: 22px;
+}
+
+span.author-low-section p{
+    font-size: 12px;
+    font-family: MuseoSansCyrl500;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.ch{
+    display: inline-block;
+}
+
+#comments{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#comments h2{
+    font-family: MuseoSansCyrl900;
+    font-size: 26px;
+    color: #e74f4c;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 25px;
+}
+
+#comments h2 span{
+    color: #000000;
+}
+
+.--frm{
+    display: flex;
+}
+.--frm img{
+    height: 64px;
+    width: 64px;
+}
+
+.--frm_n label{
+    font-family: MuseoSansCyrl900;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.comment-reply-link{
+    font-size: 12px;
+    font-family: MuseoSansCyrl500;
+    color: #00abf0;
+}
+
 @media screen and (max-width: 1190px){
 
     ul.aside-social-networks {
@@ -323,6 +394,10 @@ h2.discussion-comments{
         padding-left: 0;
         width: 150px;
         margin: 0 auto;
+    }
+
+    span.count-comments{
+        margin-left: 0;
     }
 
     ul.aside-social-networks li{
@@ -335,7 +410,7 @@ h2.discussion-comments{
     }
 
     .ch{
-        width: 100%!important;
+        width: 50%!important;
     }
 }
 
@@ -352,11 +427,62 @@ h2.discussion-comments{
     .blog-article{
         height: auto;
     }
+
+    span.count-comments{
+        margin-left: 0;
+    }
+
+    .ch{
+        width: 100%!important;
+    }
+
+    span.article-rubric{
+        float: none;
+        display: block;
+        margin:5px 0;
+        text-align: center;
+    }
+
+    div.time-for-reading{
+        margin-top: 0;
+    }
+
+    span.time-reading,
+    span.time{
+        margin-right: 10px;
+        margin-left: 5px;
+    }
 }
 
 @media screen and (max-width: 767px){
 
     ul.aside-social-networks {
         width: 100%;
+    }
+
+    .head-article,
+    .content{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    
+    .head-article span{
+        display: block;
+        margin-bottom: 10px;
+    }
+    span.time-reading{
+        display: block;
+    }
+
+    .author span{
+        display: inline-block;
+    }
+    span.no-time,
+    span.time{
+        display: inline-block;
     }
 }
