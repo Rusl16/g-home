@@ -6,68 +6,61 @@
 get_header();
 ?>
 <div class="portfolio-site">
-    <div class="head-for-case">
-    <div class="container">
-        <div class="main-info">
-            <span class="date-case">июль 2016</span>
-        <h1 class="site-name">Сайт магазина эко-канцтоваров</h1>
-        <p>ТМ «Кири скетч» - это канцтовары высокого качества, изготовленные из европейского сырья на украинском производстве.</p>
-         <a class="button-to-site"  href="#">www.ecokanc.com →</a>
+    <div class="head-for-case" style="background-image: url(<?php the_field('background_header');?>)">
+        <div class="container">
+            <div class="main-info">
+                <span class="date-case"><img class="icon__c schedule" src="/wp-content/themes/garnet-theme/img/Vector_Smart_Object.svg" alt=""><?php the_field('date');?></span>
+                <h1 class="site-name"><?php the_field('header_title');?></h1>
+                <p><?php the_field('header_description')    ;?></p>
+                 <a class="button-to-site"  href="#"><?php the_field('web_link');?> →</a>
+            </div>
         </div>
-    </div></div>
+    </div>
     <div class="container">
         <div class="case-information">
             <div class="logo-client-target-solution">
                 <div class="logo">
-                   la-la-laaaaaaaaa
+                    <img src="<?php the_field('logo');?>" alt="logo_case">
                 </div>
                 <div class="client-target-solution">
                     <div class="client">
                         <span>Клиент: </span>
-                        <p>ТМ «Кири скетч» - это канцтовары высокого качества, изготовленные из европейского сырья
-                            на украинском производстве.</p>
+                        <p><?php the_field('customer');?></p>
                     </div>
                     <div class="target">
                         <span>цель проекта:</span>
-                        <p>Вывод бренда на новый уровень. Создание интернет-магазина. Привлечение новых
-                            посетителей на сайт. Направленность на новый современный дизайн и конверсию.</p>
+                        <p><?php the_field('purpose');?></p>
                     </div>
                     <div class="solution">
                         <span>решение:</span>
-                        <p>Разработан новый, удобный, современный интерфейс. Инструменты дизайна:
-                            Adobe Photoshop, Adobe Illustrator. Front-end: CSS. Back-end: Wordpress</p>
+                        <p><?php the_field('decision');?></p>
                     </div>
                 </div>
             </div>
-         <blockquote><p>Разработан креативный баннер с использованием этнических орнаментов в стиле нашего эко-магазина.</p></blockquote>
+         <blockquote><p><?php the_field('description_1');?></p></blockquote>
             <div class="image-case-1">
-                <img src="http://g-home/wp-content/uploads/2016/img/ethno-style.png" alt="">
-                <img class="comp" src="http://g-home/wp-content/uploads/2016/img/comp.jpg" alt="">
+                <img src="<?php the_field('page_image_1');?>" alt="">
             </div>
-            <blockquote><p>Уникальные иконки преимуществ экологических блокнотов.</p></blockquote>
+            <blockquote><p><?php the_field('description_2');?></p></blockquote>
             <div class="image-case-2">
-                <img src="http://g-home/wp-content/uploads/2016/img/kiri-home.jpg" alt="">
+                <img src="<?php the_field('page_image_2');?>" alt="">
             </div>
 
-            <blockquote><p>Иллюстрированный блок “О нас” и “Карта”.</p></blockquote>
+            <blockquote><p><?php the_field('description_3');?></p></blockquote>
             <div class="image-case-3">
-                <img src="http://g-home/wp-content/uploads/2016/img/image.jpg" alt="">
+                <img src="<?php the_field('page_image_3');?>" alt="">
             </div>
 
             <span class="results">Результаты</span>
             <div>
-                <span>49 дней опыта</span>
-                <span>29 страниц</span>
-                <span>6 работало специалистов</span>
-                <span>6 привлечено клиентов</span>
-                <span>98 чашек кофе выпито</span>
+                <span><?php the_field('experience');?></span>
+                <span><?php the_field('pages');?></span>
+                <span><?php the_field('specialists');?></span>
+                <span><?php the_field('attract');?></span>
+                <span><?php the_field('cups');?></span>
             </div>
 
-            <blockquote><p>Как результат: повышение конверсии и трафика на сайте, довольный клиент и плюс в карму:)</p></blockquote>
-
-
-
-
+            <blockquote><p><?php the_field('description_4');?></p></blockquote>
         </div>
 
     </div>

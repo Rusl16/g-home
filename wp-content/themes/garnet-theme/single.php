@@ -5,6 +5,7 @@
  * @subpackage garnet-theme
  */
 get_header(); // подключаем header.php ?>
+</div>
 <section class="bgc__single">
 	<div class="container">
 		<div class="row">
@@ -50,4 +51,5 @@ get_header(); // подключаем header.php ?>
 		</div>
 	</div>
 </section>
+<div>
 <?php get_footer(); // подключаем footer.php ?>
