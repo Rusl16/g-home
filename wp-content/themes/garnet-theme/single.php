@@ -34,8 +34,9 @@ get_header(); // подключаем header.php ?>
 						?>
 						<span class="author-low-section">автор: <img src="<?php the_field('author_photo');?>" alt=""> <p><?php the_field('author_name');?></p></span>
 						<div class="rating">
-							<span class="rate">Оцените материал: <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
+							<span class="rate">Оцените материал: <?php echo do_shortcode( '[yasr_overall_rating]' );?>
 						</div>
+<!--						--><?php //if(function_exists('the_ratings')) { the_ratings(); } ?>
 						<span class="share-social">поделиться в соц сетях:</span>
 						<ul class="aside-social-networks ch">
 							<li class="vk-aside"><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
@@ -51,5 +52,5 @@ get_header(); // подключаем header.php ?>
 		</div>
 	</div>
 </section>
-<div>
+</div>
 <?php get_footer(); // подключаем footer.php ?>

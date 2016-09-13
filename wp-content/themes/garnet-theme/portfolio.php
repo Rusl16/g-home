@@ -26,7 +26,6 @@ get_header();?>
                     query_posts('cat=16');   // указываем ID рубрик, которые необходимо вывести.
                     while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
                         ?>
-                        <a href="<?php echo get_the_permalink();?>">sdfsdfsdf</a>
                             <div class="col-sm-4">
                                 <div class="row">
                                     <div class="cls">
@@ -36,8 +35,8 @@ get_header();?>
                                             <?php the_content();?>
                                         </div>
                                         <div class="m__links">
-                                            <?php the_field('more');?>
-                                            <?php the_field('links');?>
+                                            <a href="<?php echo get_the_permalink();?>">Подробнее</a>
+                                            <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
                                         </div>
                                     </div>
                                 </div>

@@ -3339,7 +3339,6 @@ padding-bottom: 50px;
       font-size: 19px;
       font-family: MuseoSansCyrl700;
       color: white;
-      text-transform: uppercase;
       position: absolute;
       top:20%;
       display: block;
@@ -4663,4 +4662,20 @@ padding-bottom: 50px;
       }
     }
   }
+}
+
+.means .title h2{
+  margin-top: 110px;
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-family: MuseoSansCyrl900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #4dddf8;
+}
+
+.portf{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
