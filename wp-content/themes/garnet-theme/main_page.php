@@ -340,12 +340,12 @@ get_header();?>
         <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-3 col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/company1.svg" alt="">
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/company4.svg" alt="">
                     </div>
                 </div>
@@ -390,12 +390,12 @@ get_header();?>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-3  col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/lavar-01.svg" alt="">
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-3  col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/mad_doner-01.svg" alt="">
                     </div>
                 </div>

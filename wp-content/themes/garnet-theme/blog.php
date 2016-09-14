@@ -45,7 +45,7 @@ get_header(); ?>
     </div>
     <?php get_sidebar();?>
 <!--    --><?php //pagination(); // пагинация, функция нах-ся в function.php ?>
-        <?php wp_simple_pagination(); ?>
+<!--        --><?php //wp_simple_pagination(); ?>
 </div>
 </div>
     <section>

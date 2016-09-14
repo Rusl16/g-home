@@ -1842,10 +1842,14 @@ a:active, a:focus, a:hover, a:visited {
     height: 100%!important;
   }
 
+
+  .--sv{
+    width: 100px!important;
+    margin: 0 auto!important;
+  }
+
   .svg__l{
     width: 100%;
-    align-items: center;
-    display: flex;
     height: 130px;
 
     path{

@@ -7,7 +7,7 @@
  * Template Name: Портфолио
  */
 get_header();?>
-
+<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
 <section>
     <div class="container">
         <div class="c__links --mrg">
@@ -201,12 +201,12 @@ get_header();?>
                     <h2>ЛУчшая награда <span>за наш труд</span></h2>
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/company1.svg" alt="">
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/company4.svg" alt="">
                     </div>
                 </div>
@@ -251,12 +251,12 @@ get_header();?>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-3  col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/lavar-01.svg" alt="">
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-3  col-xs-4">
-                    <div class="svg__l">
+                    <div class="svg__l --sv">
                         <img class="icon__c img-responsive" src="/wp-content/themes/garnet-theme/img/mad_doner-01.svg" alt="">
                     </div>
                 </div>

@@ -6,6 +6,7 @@
 get_header();
 ?>
 </div>
+<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
 <div class="portfolio-site">
     <div class="head-for-case" style="background-image: url(<?php the_field('background_header');?>)">
         <div class="container">
