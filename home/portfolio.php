@@ -12,35 +12,178 @@ get_header();?>
     <div class="container">
         <div class="c__links --mrg">
             <h1>Портфолио</h1>
-            <a href="">Все</a>
-            <a href="">Сайты</a>
-            <a href="">Графический дизайн</a>
-            <a href="">Мобильные приложения</a>
-            <a href="">Логотипы</a>
-            <a href="">Моушн/анимация</a>
+            <ul class="a1__prtf">
+                <li class="active"><a data-toggle="tab" href="#All">Все</a></li>
+                <li><a data-toggle="tab" href="#Web">Сайты</a></li>
+                <li><a data-toggle="tab" href="#Design">Графический дизайн</a></li>
+                <li><a data-toggle="tab" href="#Mobile">Мобильные приложения</a></li>
+                <li> <a data-toggle="tab" href="#Logos">Логотипы</a></li>
+                <li><a data-toggle="tab" href="#Animation">Моушн/анимация</a></li>
+            </ul>
         </div>
-        <div class="means">
-            <div id="all">
+        <div class="means tab-content">
+<!--            all-->
+            <div id="All" class="tab-pane active">
+                <?php
+                if ( have_posts() ) : // если имеются записи в блоге.
+                    query_posts('cat=17');   // указываем ID рубрик, которые необходимо вывести.
+                    while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+                        ?>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="cls">
+                                    <?php echo the_post_thumbnail(lagre);?>
+                                    <div class="m__name">
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php the_content();?>
+                                    </div>
+                                    <div class="m__links">
+                                        <a href="<?php echo get_the_permalink();?>">Подробнее</a>
+                                        <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endwhile;  // завершаем цикл.
+                endif;
+                /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+                wp_reset_query();
+                ?>
+            </div>
+<!--            web-->
+            <div id="Web" class="tab-pane">
                 <?php
                 if ( have_posts() ) : // если имеются записи в блоге.
                     query_posts('cat=16');   // указываем ID рубрик, которые необходимо вывести.
                     while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
                         ?>
-                            <div class="col-sm-4">
-                                <div class="row">
-                                    <div class="cls">
-                                        <?php echo the_post_thumbnail(lagre);?>
-                                        <div class="m__name">
-                                            <h4><?php the_title(); ?></h4>
-                                            <?php the_content();?>
-                                        </div>
-                                        <div class="m__links">
-                                            <a href="<?php echo get_the_permalink();?>">Подробнее</a>
-                                            <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
-                                        </div>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="cls">
+                                    <?php echo the_post_thumbnail(lagre);?>
+                                    <div class="m__name">
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php the_content();?>
+                                    </div>
+                                    <div class="m__links">
+                                        <a href="<?php echo get_the_permalink();?>">Подробнее</a>
+                                        <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    <?php endwhile;  // завершаем цикл.
+                endif;
+                /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+                wp_reset_query();
+                ?>
+            </div>
+<!--            design-->
+            <div id="Design" class="tab-pane">
+                <?php
+                if ( have_posts() ) : // если имеются записи в блоге.
+                    query_posts('cat=18');   // указываем ID рубрик, которые необходимо вывести.
+                    while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+                        ?>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="cls">
+                                    <?php echo the_post_thumbnail(lagre);?>
+                                    <div class="m__name">
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php the_content();?>
+                                    </div>
+                                    <div class="m__links">
+                                        <a href="<?php echo get_the_permalink();?>">Подробнее</a>
+                                        <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endwhile;  // завершаем цикл.
+                endif;
+                /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+                wp_reset_query();
+                ?>
+            </div>
+<!--            Mobile-->
+            <div id="Mobile" class="tab-pane">
+                <?php
+                if ( have_posts() ) : // если имеются записи в блоге.
+                    query_posts('cat=19');   // указываем ID рубрик, которые необходимо вывести.
+                    while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+                        ?>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="cls">
+                                    <?php echo the_post_thumbnail(lagre);?>
+                                    <div class="m__name">
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php the_content();?>
+                                    </div>
+                                    <div class="m__links">
+                                        <a href="<?php echo get_the_permalink();?>">Подробнее</a>
+                                        <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endwhile;  // завершаем цикл.
+                endif;
+                /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+                wp_reset_query();
+                ?>
+            </div>
+<!--            logos-->
+            <div id="Logos" class="tab-pane">
+                <?php
+                if ( have_posts() ) : // если имеются записи в блоге.
+                    query_posts('cat=20');   // указываем ID рубрик, которые необходимо вывести.
+                    while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+                        ?>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="cls">
+                                    <?php echo the_post_thumbnail(lagre);?>
+                                    <div class="m__name">
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php the_content();?>
+                                    </div>
+                                    <div class="m__links">
+                                        <a href="<?php echo get_the_permalink();?>">Подробнее</a>
+                                        <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endwhile;  // завершаем цикл.
+                endif;
+                /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+                wp_reset_query();
+                ?>
+            </div>
+<!--            Animation-->
+            <div id="Animation" class="tab-pane">
+                <?php
+                if ( have_posts() ) : // если имеются записи в блоге.
+                    query_posts('cat=21');   // указываем ID рубрик, которые необходимо вывести.
+                    while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+                        ?>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="cls">
+                                    <?php echo the_post_thumbnail(lagre);?>
+                                    <div class="m__name">
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php the_content();?>
+                                    </div>
+                                    <div class="m__links">
+                                        <a href="<?php echo get_the_permalink();?>">Подробнее</a>
+                                        <a href="<?php the_field('web_link');?>">Перейти на сайт</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <?php endwhile;  // завершаем цикл.
                 endif;
                 /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */

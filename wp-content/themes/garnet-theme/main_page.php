@@ -409,23 +409,50 @@ get_header();?>
             <div class="row">
                 <div class="lamp__g">
                     <img class="icon__c" src="/wp-content/themes/garnet-theme/img/llamp.svg" alt="">
-                    <a href="#p__113" class="arrow__down"><img src="/wp-content/themes/garnet-theme/img/arrow.png" alt="arrow"></a>
+                    <a href="#ab__1" class="arrow__down"><img src="/wp-content/themes/garnet-theme/img/arrow.png" alt="arrow"></a>
                 </div>
-                    <?php
-                    if ( have_posts() ) : // если имеются записи в блоге.
-                        query_posts('cat=9');   // указываем ID рубрик, которые необходимо вывести.
-                        while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
-                            ?>
-                            <div id="p__<?php echo the_ID();?>" class="m col-md-4 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="g">
-                                    <?php the_content();?>
-                                </div>
+                <div id="ab__1" class="ab__main">
+                    <div class="col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="--clr">
+                            <div class="desc">
+                                <p><span>Мы</span> &mdash; эксперты</p>
+                                <p>в современных</p>
+                                <p>технологиях</p>
+                                <p>создания <span>сайтов</span></p>
                             </div>
-                        <?php endwhile;  // завершаем цикл.
-                    endif;
-                    /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
-                    wp_reset_query();
-                    ?>
+                            <div class="desc__mean">
+                                <p><span>Создание сайтов</span> и <span>интернет-магазинов</span> высокого технологического уровня и дизайна.</p>
+                                    <p>Обеспечение высокого уровня предпродажного и постпродажного обслуживания заказчиков и продвижение ресурса.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="--clr">
+                            <div class="cms">
+                                <p><span>У нас</span></p>
+                                <p>собственная</p>
+                                <p><span>CMS система</span></p>
+                            </div>
+                            <div class="desc__mean">
+                                <p><span>Создание сайтов</span> и <span>интернет-магазинов</span> высокого технологического уровня и дизайна.</p>
+                                    <p>Обеспечение высокого уровня предпродажного и постпродажного обслуживания заказчиков и продвижение ресурса.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="--clr">
+                            <div class="offer">
+                                <p><span>Мы </span> предоставляем</p>
+                                <p>качественную</p>
+                                <p><span>тех</span>поддержку</p>
+                            </div>
+                            <div class="desc__mean">
+                                <p><span>Создание сайтов</span> и <span>интернет-магазинов</span> высокого технологического уровня и дизайна.</p>
+                                    <p>Обеспечение высокого уровня предпродажного и постпродажного обслуживания заказчиков и продвижение ресурса.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -438,7 +465,6 @@ get_header();?>
                 <p><span>Оставьте заявку</span> и мы перезвоним вам в ближайшее время.</p>
             </div>
            <div class="c__form">
-<!--               --><?php //echo do_shortcode( '[contact-form-7 id="183" title="Без названия"]' );?>
                <?php echo do_shortcode( '[contact-form-7 id="248" title="Без названия"]' );?>
                <div class="down__l text-center wow bounceInLeft" data-wow-delay="0.5">
                    <a href="garnet.docx" download>

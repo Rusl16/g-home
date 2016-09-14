@@ -266,19 +266,30 @@ div.subscribe input{
     padding: 0 10px;
     text-align: left;
     margin-bottom: 10px;
+    color: white;
 }
 
-button.send{
+.subscribe .send{
     background-color: white;
     border-radius: 3px;
     padding: 10px 32px;
     border: none;
     color: black;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 14px!important;
     text-transform: uppercase;
     margin-bottom: 15px;
     width: 80%;
+    text-align: center;
+    height: auto;
+    transition: all 400ms ease;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.subscribe .send:hover{
+    background-color: #7b7b7b;
+    color: white;
 }
 
 div.aside-rubrics{
