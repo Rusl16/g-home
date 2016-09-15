@@ -3,21 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="084ee73b-0d99-411d-ad6e-705ea2ad5895" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/about_us.php" afterPath="$PROJECT_DIR$/home/about_us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/functions.php" afterPath="$PROJECT_DIR$/home/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/portfolio.php" afterPath="$PROJECT_DIR$/home/portfolio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/services.php" afterPath="$PROJECT_DIR$/home/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/single.php" afterPath="$PROJECT_DIR$/home/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/style.scss" afterPath="$PROJECT_DIR$/home/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/about_us.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/about_us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/portfolio.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/portfolio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/services.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/footer.php" afterPath="$PROJECT_DIR$/home/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/header.php" afterPath="$PROJECT_DIR$/home/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/js/onlyHome.js" afterPath="$PROJECT_DIR$/home/js/onlyHome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/garnet-theme/js/onlyHome.js" afterPath="$PROJECT_DIR$/wp-content/themes/garnet-theme/js/onlyHome.js" />
     </list>
     <ignored path="g-home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,24 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="3688" column="3" selection-start-line="3688" selection-start-column="3" selection-end-line="3688" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
               <folding>
-                <marker date="1473935300653" expanded="true" signature="20126:20270" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
-                <marker date="1473935300653" expanded="true" signature="21112:21295" placeholder="SELECT * FRO... ${$wpdb-&gt;comments}" />
+                <marker date="1473937434968" expanded="true" signature="20126:20270" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+                <marker date="1473937434968" expanded="true" signature="21112:21295" placeholder="SELECT * FRO... ${$wpdb-&gt;comments}" />
               </folding>
             </state>
           </provider>
@@ -65,21 +46,61 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+            <state relative-caret-position="36">
+              <caret line="16" column="160" selection-start-line="16" selection-start-column="160" selection-end-line="16" selection-end-column="160" />
               <folding>
-                <marker date="1473935723598" expanded="true" signature="1649:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="1669:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="1697:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="1720:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="1753:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="1775:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="1899:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="1941:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="2618:2747" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="3418:3535" placeholder="..." />
-                <marker date="1473935723598" expanded="true" signature="3570:3732" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2187:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2207:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2235:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2258:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2291:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2313:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2437:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="2479:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="3156:3285" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="3956:4073" placeholder="..." />
+                <marker date="1473937869708" expanded="true" signature="4108:4270" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1138">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/main_page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-portfolio.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single-portfolio.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -128,19 +149,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/home/js/circle-progress.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/js/jquery.jpanelmenu.min.js" />
         <option value="$PROJECT_DIR$/home/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/home/footer.php" />
         <option value="$PROJECT_DIR$/home/js/segment.min.js" />
         <option value="$PROJECT_DIR$/home/js/ease.min.js" />
         <option value="$PROJECT_DIR$/home/js/jquery.jpanelmenu.min.js" />
         <option value="$PROJECT_DIR$/header__1.php" />
         <option value="$PROJECT_DIR$/home/header__1.php" />
         <option value="$PROJECT_DIR$/home/js/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/home/js/onlyHome.js" />
         <option value="$PROJECT_DIR$/home/page.php" />
         <option value="$PROJECT_DIR$/home/page-custom.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -148,7 +166,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/functions.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/sidebar.php" />
-        <option value="$PROJECT_DIR$/home/js/main.js" />
         <option value="$PROJECT_DIR$/home/comments.php" />
         <option value="$PROJECT_DIR$/home/contacts.php" />
         <option value="$PROJECT_DIR$/home/js/map.js" />
@@ -174,11 +191,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/style_2.css" />
         <option value="$PROJECT_DIR$/home/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-custom-post-template/wp-custom-post-template.php" />
-        <option value="$PROJECT_DIR$/home/functions.php" />
         <option value="$PROJECT_DIR$/wp-includes/post-template.php" />
-        <option value="$PROJECT_DIR$/home/header.php" />
         <option value="$PROJECT_DIR$/home/portfolio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php" />
+        <option value="$PROJECT_DIR$/home/js/main.js" />
+        <option value="$PROJECT_DIR$/home/functions.php" />
+        <option value="$PROJECT_DIR$/home/header.php" />
+        <option value="$PROJECT_DIR$/home/footer.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/home/js/onlyHome.js" />
       </list>
     </option>
   </component>
@@ -252,61 +273,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="g-home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="g-home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="g-home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="g-home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="g-home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="g-home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garnet-theme" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,6 +288,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,15 +401,15 @@
       <workItem from="1473837108160" duration="21655000" />
       <workItem from="1473870857334" duration="4944000" />
       <workItem from="1473877653396" duration="73000" />
-      <workItem from="1473921694003" duration="13447000" />
+      <workItem from="1473921694003" duration="16443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="519031000" />
+    <option name="totallyTimeSpent" value="522027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -478,48 +449,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1059">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4369">
-          <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/wp-postratings.pot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3723">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/postratings-stats.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
@@ -691,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/main_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6834">
-          <caret line="402" column="14" selection-start-line="402" selection-start-column="14" selection-end-line="402" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -811,17 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <marker date="1473935300653" expanded="true" signature="20126:20270" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
-            <marker date="1473935300653" expanded="true" signature="21112:21295" placeholder="SELECT * FRO... ${$wpdb-&gt;comments}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10999">
@@ -852,26 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="85" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
-          <folding>
-            <marker date="1473935723598" expanded="true" signature="1649:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="1669:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="1697:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="1720:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="1753:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="1775:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="1899:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="1941:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="2618:2747" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="3418:3535" placeholder="..." />
-            <marker date="1473935723598" expanded="true" signature="3570:3732" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/garnet-theme/single-portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -879,6 +769,154 @@
           <folding>
             <element signature="e#6#52#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
+          <folding>
+            <marker date="1473937434968" expanded="true" signature="20126:20270" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1473937434968" expanded="true" signature="21112:21295" placeholder="SELECT * FRO... ${$wpdb-&gt;comments}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="16" column="160" selection-start-line="16" selection-start-column="160" selection-end-line="16" selection-end-column="160" />
+          <folding>
+            <marker date="1473937869708" expanded="true" signature="2187:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="2207:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="2235:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="2258:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="2291:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="2313:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="2437:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="2479:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="3156:3285" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="3956:4073" placeholder="..." />
+            <marker date="1473937869708" expanded="true" signature="4108:4270" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adminer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6324">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1473938197290" expanded="true" signature="52954:52964" placeholder="{...}" />
+            <marker date="1473938197290" expanded="true" signature="59667:59679" placeholder="INSERT INTO ${table($Q)}... " />
+            <marker date="1473938197290" expanded="true" signature="63387:63426" placeholder="INSERT INTO ${table($Q)}... " />
+            <marker date="1473938197290" expanded="true" signature="63494:63549" placeholder="INSERT INTO ${table($Q)}... " />
+            <marker date="1473938197290" expanded="true" signature="64456:64507" placeholder="SELECT SCHEM... SCHEMATA" />
+            <marker date="1473938197290" expanded="true" signature="65298:65410" placeholder="SELECT TABLE... TABLES" />
+            <marker date="1473938197290" expanded="true" signature="65649:65772" placeholder="SELECT TABLE... TABLES" />
+            <marker date="1473938197290" expanded="true" signature="70075:70130" placeholder="CREATE TABLE... ${table($E)}" />
+            <marker date="1473938197290" expanded="true" signature="70227:70254" placeholder="ALTER TABLE ${table($Q)}... " />
+            <marker date="1473938197290" expanded="true" signature="70522:70534" placeholder="ALTER TABLE ${table($Q)}... " />
+            <marker date="1473938197290" expanded="true" signature="70770:70781" placeholder="DROP TABLE $... " />
+            <marker date="1473938197290" expanded="true" signature="71214:71235" placeholder="CREATE TABLE... ${$E}" />
+            <marker date="1473938197290" expanded="true" signature="71259:71288" placeholder="INSERT INTO ${$E}... " />
+            <marker date="1473938197290" expanded="true" signature="71274:71288" placeholder="SELECT * FRO... ${table($Q)}" />
+            <marker date="1473938197290" expanded="true" signature="73226:73332" placeholder="SELECT ROUTI... ROUTINES" />
+            <marker date="1473938197290" expanded="true" signature="77585:77604" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="87740:87789" placeholder="CREATE TABLE... ${table($Q)}" />
+            <marker date="1473938197290" expanded="true" signature="88617:88697" placeholder="INSERT INTO ${table($Q)}... " />
+            <marker date="1473938197290" expanded="true" signature="92074:92088" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="93784:94022" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="96809:96933" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="96828:96933" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="108260:108274" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="122901:122918" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="127741:127766" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="128920:128998" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="129115:129132" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="129274:129292" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="130061:130078" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="130797:130894" placeholder="SELECT User,... ${(DB==&quot;&quot;?&quot;user&quot;:&quot;db WHERE &quot;.q(DB).&quot; LIKE Db&quot;)}" />
+            <marker date="1473938197290" expanded="true" signature="143670:143675" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="144549:144625" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="145237:145273" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="149795:149872" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="151206:151211" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="153626:153703" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="154331:154343" placeholder="ALTER TABLE ${table($a)}... " />
+            <marker date="1473938197290" expanded="true" signature="155188:155193" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="155489:155530" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="155776:155788" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="156138:156184" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="157301:157337" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="157438:157474" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="158880:158968" placeholder="SELECT * FRO... EVENTS" />
+            <marker date="1473938197290" expanded="true" signature="159027:159100" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="159051:159100" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="159853:159889" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="160891:160927" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="161329:161365" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="162339:162380" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="162363:162380" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="163037:163073" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="166221:166305" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="166245:166305" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="168008:168044" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="168557:168674" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="175038:175052" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="181631:181665" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="181772:181976" placeholder="..." />
+            <marker date="1473938197290" expanded="true" signature="181830:181976" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/js/onlyHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2073">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/main_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1138">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

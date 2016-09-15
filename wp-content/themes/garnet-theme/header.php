@@ -14,12 +14,16 @@
 	<meta charset="<?php bloginfo( 'charset' ); // кодировка ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="создание сайтов в украине,разработка сайтов в одесса,изготовление сайтов в киеве,сделать сайт,заказать сайт,изготовить сайт">
+	<meta name="description" content="Настройка контекстной рекламы на заказ. Аудит рекламных кампаний Яндекс Директ и Google Adwords. Команда сертифициорванных специалистов GarnetPromo"/>
+	<title>Профессиональная настройка контекстной рекламы Яндекс Директ и Google Adwords</title>
 	<?php /* RSS и всякое */ ?>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link rel="alternate" type="application/rdf+xml" title="RDF mapping" href="<?php bloginfo('rdf_url'); ?>">
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php bloginfo('rss_url'); ?>">
 	<link rel="alternate" type="application/rss+xml" title="Comments RSS" href="<?php bloginfo('comments_rss2_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<link rel="shortcut icon" href="/wp-content/themes/garnet-theme/img/favicon.png" type="image/png">
 
 	<?php /* Все скрипты и стили теперь подключаются в functions.php */ ?>
 <!--	<script url="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>-->
