@@ -72,6 +72,7 @@ Author URI: http://dontforget.pro
 
 /* =WordPress Core
 -------------------------------------------------------------- */
+
 .alignnone {
     margin: 5px 20px 20px 0;
 }
@@ -148,6 +149,13 @@ a img.aligncenter {
 }
 
 /* Text meant only for screen readers. */
+
+
+.input {
+  outline: none;
+}
+
+
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute !important;
@@ -3829,6 +3837,60 @@ padding-bottom: 50px;
   }
 }
 
+
+.single-post,
+.page-template-blog{
+
+  .breadcrumbs{
+    padding-left: 15px;
+  }
+
+  .breadcrumbs .sep,
+  .breadcrumbs a{
+    color: black;
+  }
+}
+
+.single-post{
+
+  .breadcrumbs{
+    padding: 0;
+  }
+
+}
+
+.--bread__mod{
+
+  .breadcrumbs{
+    margin-bottom: 25px;
+  }
+}
+
+.breadcrumbs{
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: MuseoSansCurl300;
+
+  a{
+    color:white!important;
+    transition: all 400ms ease;
+
+    &:hover{
+      color: #26cbea!important;
+    }
+  }
+
+  .sep{
+    color: white!important;
+  }
+
+  .current{
+    color: #26cbea!important;
+  }
+
+}
+
+
 //ABOUT__US
 
 .about{
@@ -3842,7 +3904,7 @@ padding-bottom: 50px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 5px;
-    margin: 80px 0 50px 0;
+    margin: 45px 0 50px 0;
 
     span{
       color: #4dddf8;
@@ -4866,3 +4928,4 @@ padding-bottom: 50px;
 .wpcf7-validation-errors{
   display: none!important;
 }
+

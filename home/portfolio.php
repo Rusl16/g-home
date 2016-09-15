@@ -7,7 +7,9 @@
  * Template Name: Портфолио
  */
 get_header();?>
-<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
+<div class="container">
+    <?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
+</div>
 <section>
     <div class="container">
         <div class="c__links --mrg">

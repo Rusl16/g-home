@@ -5,23 +5,6 @@
     /*font-family: 'MuseoSansCyrl300';*/
 
 /*}*/
-
-div.breadcrumbs{
-    padding-top-top: 20px;
-}
-div.breadcrumbs  span {
-    height: 11px;
-    font-size: 14px;
-    line-height: 14px;
-    color: black;
-    font-family: 'MuseoSansCyrl300';
-    text-transform: none;
-
-}
-div.breadcrumbs .current {
-    color: #26cbea ;
-}
-
 div.clear-padding{
     padding-right: 0;
     padding-left: 0;
@@ -29,7 +12,6 @@ div.clear-padding{
 
 div.bg{
     background-color: white;
-    padding-top: 57px;
 }
 /*div.test-bg{*/
     /*background-color: white;*/
@@ -38,7 +20,8 @@ div.bg{
 div.test-bg h1{
     color: #27d3f3;
     font-size: 48px;
-    line-height: 79px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     text-transform: uppercase;
     font-family: 'MuseoSansCyrl900';
     padding-left: 15px;

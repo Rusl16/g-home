@@ -8,6 +8,7 @@ get_header(); // подключаем header.php ?>
 </div>
 <section class="bgc__single">
 	<div class="container">
+		<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
 		<div class="row">
 			<div class="<?php content_class_by_sidebar(); // функция подставит класс в зависимости от того есть ли сайдбар, лежит в functions.php ?>">
 				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); // старт цикла ?>

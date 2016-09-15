@@ -47,10 +47,10 @@ get_header();?>
     console.log('map');
 </script>
 
-<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
     <section>
         <div class="about">
             <div class="container">
+                <?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
                 <div class="title">
                     <h1><span>Garnet</span> software &mdash; веб-студия</h1>
                 </div>

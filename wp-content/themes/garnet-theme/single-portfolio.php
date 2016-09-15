@@ -5,8 +5,15 @@
 
 get_header();
 ?>
+<div class="container --bread__mod">
+    <?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
 </div>
-<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
+</div>
+    <script>
+        $(document).ready(function(){
+            $('body').addClass('case');
+        });
+    </script>
 <div class="portfolio-site">
     <div class="head-for-case" style="background-image: url(<?php the_field('background_header');?>)">
         <div class="container">
